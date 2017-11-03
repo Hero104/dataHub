@@ -1,0 +1,168 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "time": "2017-03-29",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 2,
+          "study_time": 5988,
+          "resource_count": 6,
+          "join_count": 0
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 3,
+          "study_time": 13,
+          "resource_count": 2,
+          "join_count": 0
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 4,
+          "study_time": 0,
+          "resource_count": 2,
+          "join_count": 21
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 5,
+          "study_time": 0,
+          "resource_count": 1,
+          "join_count": 418
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 6,
+          "study_time": 0,
+          "resource_count": 2,
+          "join_count": 40
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 7,
+          "study_time": 0,
+          "resource_count": 3,
+          "join_count": 3
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-29",
+          "statis_type": 8,
+          "study_time": 0,
+          "resource_count": 2,
+          "join_count": 4
+        }
+      ]
+    },
+    {
+      "time": "2017-03-30",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-30",
+          "statis_type": 1,
+          "study_time": 50,
+          "resource_count": 1,
+          "join_count": 0
+        },
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-03-30",
+          "statis_type": 3,
+          "study_time": 1,
+          "resource_count": 3,
+          "join_count": 0
+        }
+      ]
+    },
+    {
+      "time": "2017-05-17",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-05-17",
+          "statis_type": 3,
+          "study_time": 13,
+          "resource_count": 2,
+          "join_count": 0
+        }
+      ]
+    },
+    {
+      "time": "2017-05-19",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-05-19",
+          "statis_type": 3,
+          "study_time": 12,
+          "resource_count": 1,
+          "join_count": 0
+        }
+      ]
+    },
+    {
+      "time": "2017-05-25",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-05-25",
+          "statis_type": 3,
+          "study_time": 56,
+          "resource_count": 2,
+          "join_count": 0
+        }
+      ]
+    },
+    {
+      "time": "2017-06-03",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-06-03",
+          "statis_type": 3,
+          "study_time": 0,
+          "resource_count": 2,
+          "join_count": 0
+        }
+      ]
+    },
+    {
+      "time": "2017-06-19",
+      "study": [
+        {
+          "user_id": 73955,
+          "course_id": 1735446,
+          "statis_date": "2017-06-19",
+          "statis_type": 3,
+          "study_time": 26,
+          "resource_count": 1,
+          "join_count": 0
+        }
+      ]
+    }
+  ],
+  "suc": true
+}

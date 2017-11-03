@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "resource_type": 1,
+      "ask_count": 80
+    },
+    {
+      "resource_type": 2,
+      "ask_count": 77
+    },
+    {
+      "resource_type": 3,
+      "ask_count": 16
+    },
+    {
+      "resource_type": 4,
+      "ask_count": 7
+    },
+    {
+      "resource_type": 5,
+      "ask_count": 0
+    },
+    {
+      "resource_type": 6,
+      "ask_count": 0
+    }
+  ],
+  "suc": true
+}

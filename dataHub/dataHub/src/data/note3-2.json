@@ -1,0 +1,242 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "rows": [
+      {
+        "askAnswers": [
+          {
+            "answers": [
+              {
+                "answerContent": "实习很顺利，多谢老师关心",
+                "createTime": "2016-11-14 18:58:19.0",
+                "answerName": "葛国栋"
+              }
+            ],
+            "ask": {
+              "ASKCONTENT": "实习一切顺利，谢谢老师关心，出来感觉自己底子薄弱，仍需要继续学习。",
+              "askCreateTime": "2016-11-14 18:23:22.0",
+              "askCreateUser": "赵瑞平",
+              "askId": 305
+            }
+          },
+          {
+            "answers": [
+              {
+                "answerContent": "实习一切顺利，多谢老师关心",
+                "createTime": "2016-11-14 19:12:34.0",
+                "answerName": "葛国栋"
+              },
+              {
+                "answerContent": "实习一切顺利 多谢老师关心",
+                "createTime": "2016-11-14 17:50:42.0",
+                "answerName": "程静"
+              },
+              {
+                "answerContent": "实习一切顺利 多谢老师关心",
+                "createTime": "2016-11-14 17:48:07.0",
+                "answerName": "张静"
+              },
+              {
+                "answerContent": "一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 17:42:11.0",
+                "answerName": "刘珂"
+              }
+            ],
+            "ask": {
+              "ASKCONTENT": "实习还算顺利  还会继续努力",
+              "askCreateTime": "2016-11-14 16:12:25.0",
+              "askCreateUser": "刘永振",
+              "askId": 304
+            }
+          },
+          {
+            "answers": [
+              {
+                "answerContent": "实习很顺利，谢谢老师关心",
+                "createTime": "2016-11-14 19:12:05.0",
+                "answerName": "葛国栋"
+              },
+              {
+                "answerContent": "实习一切顺利 多谢老师关心",
+                "createTime": "2016-11-14 17:50:36.0",
+                "answerName": "程静"
+              },
+              {
+                "answerContent": "实习一切顺利 多谢老师关心",
+                "createTime": "2016-11-14 17:48:01.0",
+                "answerName": "张静"
+              },
+              {
+                "answerContent": "一切挺好，谢谢老师关心",
+                "createTime": "2016-11-14 17:42:44.0",
+                "answerName": "刘珂"
+              }
+            ],
+            "ask": {
+              "ASKCONTENT": "一切都挺好的，就是想念在学校的日子。谢谢老师关心。",
+              "askCreateTime": "2016-11-14 16:11:31.0",
+              "askCreateUser": "刘永振",
+              "askId": 303
+            }
+          },
+          {
+            "answers": [
+              {
+                "answerContent": "实习一切顺利，多谢老师关心",
+                "createTime": "2016-11-14 19:11:39.0",
+                "answerName": "葛国栋"
+              },
+              {
+                "answerContent": "实习一切顺利 多谢老师关心",
+                "createTime": "2016-11-14 17:50:30.0",
+                "answerName": "程静"
+              },
+              {
+                "answerContent": "实习一切顺利 多谢老师关心",
+                "createTime": "2016-11-14 17:47:45.0",
+                "answerName": "张静"
+              },
+              {
+                "answerContent": "实习一切顺利，多谢老师关心！",
+                "createTime": "2016-11-14 17:43:15.0",
+                "answerName": "刘珂"
+              },
+              {
+                "answerContent": "实习一切顺利，多谢老师关心！",
+                "createTime": "2016-11-14 16:12:10.0",
+                "answerName": "段秀珍"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 16:04:24.0",
+                "answerName": "杨丽丽"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 15:37:43.0",
+                "answerName": "张晓阳"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 14:58:32.0",
+                "answerName": "赵月玲"
+              },
+              {
+                "answerContent": "实习顺利 谢谢老师",
+                "createTime": "2016-11-14 14:01:25.0",
+                "answerName": "马新濮"
+              },
+              {
+                "answerContent": "一切顺利",
+                "createTime": "2016-11-14 13:59:15.0",
+                "answerName": "李庭"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 13:58:50.0",
+                "answerName": "韩晨曦"
+              },
+              {
+                "answerContent": "实习顺利 谢谢老师",
+                "createTime": "2016-11-14 13:55:40.0",
+                "answerName": "常妞妞"
+              },
+              {
+                "answerContent": "实习一切顺利   多谢老师关心",
+                "createTime": "2016-11-14 13:05:21.0",
+                "answerName": "张思宇"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 12:33:56.0",
+                "answerName": "孔娜"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 11:28:43.0",
+                "answerName": "范秀秀"
+              },
+              {
+                "answerContent": "实习一切顺利，谢谢老师关心",
+                "createTime": "2016-11-14 11:28:00.0",
+                "answerName": "郭如利"
+              }
+            ],
+            "ask": {
+              "ASKCONTENT": "实习一切顺利，多谢老师关心！",
+              "askCreateTime": "2016-11-11 11:12:04.0",
+              "askCreateUser": "李玉良",
+              "askId": 295
+            }
+          },
+          {
+            "answers": [
+              {
+                "answerContent": "还能参加论坛，进行考试",
+                "createTime": "2016-11-14 19:11:01.0",
+                "answerName": "葛国栋"
+              },
+              {
+                "answerContent": "还能参加论坛，进行考试。",
+                "createTime": "2016-11-14 17:50:13.0",
+                "answerName": "程静"
+              },
+              {
+                "answerContent": "还能参加论坛，进行考试。",
+                "createTime": "2016-11-14 17:47:28.0",
+                "answerName": "张静"
+              },
+              {
+                "answerContent": "能参加论坛，进行考试。",
+                "createTime": "2016-11-14 17:43:30.0",
+                "answerName": "刘珂"
+              },
+              {
+                "answerContent": "实习顺利  谢谢老师",
+                "createTime": "2016-11-14 16:20:57.0",
+                "answerName": "常妞妞"
+              },
+              {
+                "answerContent": "还能参加论坛，进行考试。",
+                "createTime": "2016-11-14 15:38:36.0",
+                "answerName": "张晓阳"
+              },
+              {
+                "answerContent": "进行考试",
+                "createTime": "2016-11-14 14:01:44.0",
+                "answerName": "马新濮"
+              },
+              {
+                "answerContent": "参加论坛，进行考试。",
+                "createTime": "2016-11-14 13:59:19.0",
+                "answerName": "韩晨曦"
+              },
+              {
+                "answerContent": "实习一切顺利   多谢老师关心",
+                "createTime": "2016-11-14 13:05:30.0",
+                "answerName": "张思宇"
+              },
+              {
+                "answerContent": "还能参加论坛，进行考试。",
+                "createTime": "2016-11-14 11:30:59.0",
+                "answerName": "范秀秀"
+              }
+            ],
+            "ask": {
+              "ASKCONTENT": "这里只能看课件吗",
+              "askCreateTime": "2016-08-23 22:55:49.0",
+              "askCreateUser": "王闪闪",
+              "askId": 153
+            }
+          }
+        ]
+      }
+    ],
+    "pageNo": 1,
+    "pageSize": 6,
+    "totalRecord": 5,
+    "totalPage": 1
+  },
+  "suc": true
+}

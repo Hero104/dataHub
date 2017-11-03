@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "course_id": null,
+      "activity_id": null,
+      "score_level": null,
+      "user_count": null,
+      "score_level_1": 0,
+      "score_level_2": 0,
+      "score_level_3": 0,
+      "score_level_4": 0,
+      "score_level_5": 1
+    }
+  ],
+  "suc": true
+}

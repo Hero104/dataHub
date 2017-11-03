@@ -1,0 +1,295 @@
+接口说明:获取资源学习时长(视频、文档) 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getStudyTime
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(1:视频 2：文档) 数据类型:Long [是否必要:true]
+
+	{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": {
+	        "maxTotalStudyTime": 0,      // 最长学习时长
+	        "minTotalStudyTime": 0,      // 最短学习时长
+	        "avgTotalStudyTime": 0       // 平均学习时长
+	    },
+	    "suc": true
+	}
+
+
+
+
+接口说明:获取资源学习次数(富文本和超链接) 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getStudyNumber
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(5:富文本 6：超链接) 数据类型:Long [是否必要:true] 
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": {
+        "maxTotalStudyCount": 103,          // 最多学习次数  
+        "minTotalStudyCount": 1,            // 最少学习次数  
+        "avgTotalStudyCount": 4.2242        // 平均学习次数
+    },
+    "suc": true
+}	
+
+
+
+接口说明:学习明细 富文本和超链接 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/listStudentStatisticsRH
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(5:富文本 6：超链接) 数据类型:Long [是否必要:true]
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "userId": 776,                                        // 学生id         
+            "courseId": 2878,                                     // 课程id       
+            "resourceId": 230,                                   // 资源id     
+            "resourceType": 1,                                    // 资源类型   
+            "resourceName": "项目一单元1人力资源管理基础知识",    // 资源名称 
+            "sequenceId": 1,                                     // 排序id     
+            "studyTime": 1800,                                   // 学习时长      
+            "studyCount": 1,                                     // 学习次数     
+            "progress": 3,                                        // 学习进度       
+            "nickname": "郝文晓"                                  // 学生姓名     
+        },
+        {
+            "userId": 2977,                                            // 学生id    
+            "courseId": 2878,                                          // 课程id    
+            "resourceId": 230,                                        // 资源id     
+            "resourceType": 1,                                         // 资源类型    
+            "resourceName": "项目一单元1人力资源管理基础知识",          // 资源名称                
+            "sequenceId": 1,                                          // 排序id     
+            "studyTime": 1800,                                        // 学习时长     
+            "studyCount": 1,                                          // 学习次数     
+            "progress": 3,                                             // 学习进度    
+            "nickname": "常妞妞"                                    // 学生姓名       
+        }
+    ],
+    "suc": true
+}
+
+ 
+
+
+
+接口说明:学习明细 视频和文档 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/listStudentStatisticsVD
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(1:视频 2：文档) 数据类型:Long [是否必要:true]
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "userId": 818,                           // 学生id    
+            "courseId": 1735384,                     // 课程id    
+            "resourceId": 5352,                     // 资源id     
+            "resourceType": 5,                       // 资源类型    
+            "resourceName": "何为税？",                  // 资源名称      
+            "sequenceId": 1488198220373,            // 排序id     
+            "studyTime": null,                      // 学习时长     
+            "studyCount": 2,                        // 学习次数     
+            "progress": 100,                         // 学习进度    
+            "nickname": "王瑞玲"                  // 学生姓名       
+        },
+        {
+            "userId": 2574,                                    // 学生id   
+            "courseId": 1735384,                               // 课程id   
+            "resourceId": 5352,                               // 资源id    
+            "resourceType": 5,                                 // 资源类型   
+            "resourceName": "何为税？",                        // 资源名称   
+            "sequenceId": 1488198220373,                      // 排序id    
+            "studyTime": null,                                // 学习时长    
+            "studyCount": 1,                                  // 学习次数    
+            "progress": 100,                                   // 学习进度   
+            "nickname": "张秋杰"                         // 学生姓名         
+        }
+    ],
+    "suc": true
+}
+
+
+
+
+
+
+
+
+
+
+接口说明:按资源统计 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/listResourcesStatistics
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "courseId": 1735439,                          // 课程id           
+            "resourceId": 5384,                           // 资源id         
+            "resourceType": 1,                            // 资源类型       
+            "resourceName": "从七世一生到一世七生",         // 资源名称     
+            "sequenceId": 1488347857759,                  // 排序id         
+            "umStudyTime": 2001,                          // 学习时长        
+            "avgStudyTime": 667,                          // 人均学习时长     
+            "studyCount": 3,                              // 学习次数         
+            "noteCount": 0,                               // 笔记数量          
+            "askCount": 0,                                // 答疑数量           
+            "finishedUserCount": 0                        // 完成人数  
+        },
+        {
+            "courseId": 1735439,                       // 课程id     
+            "resourceId": 5385,                        // 资源id     
+            "resourceType": 1,                         // 资源类型     
+            "resourceName": "新的学习机会与挑战",        // 资源名称     
+            "sequenceId": 1488347985966,               // 排序id     
+            "umStudyTime": 1800,                       // 学习时长     
+            "avgStudyTime": 1800,                      // 人均学习时长   
+            "studyCount": 1,                           // 学习次数     
+            "noteCount": 0,                            // 笔记数量     
+            "askCount": 0,                             // 答疑数量     
+            "finishedUserCount": 0                     // 完成人数     
+        }
+    ],
+    "suc": true
+}
+
+
+
+接口说明:获取课程资源统计 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/listCourseResources
+参数:
+access_token:用户Token [是否必要:true]
+status:课程状态(0:全部 1:未过期 2:已过期) 数据类型:Long [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true]
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "courseId": 1735397,                   // 课程id                
+            "courseName": null,                     // 课程名称            
+            "courseResourceCount": 4,               // 课程资源总数   
+            "avgProgress": 2,                       // 平均进度,            
+            "maxProgress": 50,                      // 最大进度             
+            "minProgress": 0,                       // 最小进度             
+            "askCount": 0,                         // 提问数                 
+            "noteCount": 0,                         // 笔记数                
+            "homeworkStudyTime": 0,                // 作业学习时间     
+            "videoStudyTime": 0,                   // 视频学习时间        
+            "documentStudyTime": 0,                 // 文档学习时间     
+            "totalStudyTime": 0,                    // 总学习时间         
+            "avgStudyTime": 0,                     // 平均学习时长          
+            "sumStudyCount": 0,                     // 总浏览次数          
+            "avgStudyCount": 0,                     // 平均浏览次数         
+            "userCount": 40,                        // 课程人数               
+            "finisheduserCount": 0                  // 课程完成人数     
+        },
+        {
+            "courseId": 1735399,                       // 课程id      
+            "courseName": null,                         // 课程名称     
+            "courseResourceCount": 0,                   // 课程资源总数   
+            "avgProgress": 0,                           // 平均进度,    
+            "maxProgress": 0,                           // 最大进度     
+            "minProgress": 0,                           // 最小进度     
+            "askCount": 0,                             // 提问数       
+            "noteCount": 0,                             // 笔记数      
+            "homeworkStudyTime": 0,                    // 作业学习时间    
+            "videoStudyTime": 0,                       // 视频学习时间    
+            "documentStudyTime": 0,                     // 文档学习时间   
+            "totalStudyTime": 0,                        // 总学习时间    
+            "avgStudyTime": 0,                         // 平均学习时长    
+            "sumStudyCount": 0,                         // 总浏览次数    
+            "avgStudyCount": 0,                         // 平均浏览次数   
+            "userCount": 1,                             // 课程人数     
+            "finisheduserCount": 0                      // 课程完成人数   
+        }
+    ],
+    "suc": true
+}
+
+
+
+接口说明:获取课程学习资源统计 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getCourseResourcesStudyStatistics
+参数:
+access_token:用户Token [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true]
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": {
+        "totalStudyTime": 14785441,         // 总学习时长  
+        "sumStudyCount": 27937,            //  总学习次数   
+        "avgStudyTime": 27079,             // 平均学习时长   
+        "avgStudyCount": 51                 // 平均学习次数  
+    },
+    "suc": true
+}
+
+
+接口说明: 获取课程资源学习时长 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getResourcesStudyTime
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": {
+        "maxTotalStudyTime": 5483,   // 最长学习时长 
+        "minTotalStudyTime": 201,    // 最短学习时长 
+        "avgTotalStudyTime": 3038    // 平均学习时长 
+    },
+    "suc": true
+}
+
+
+接口说明:获取资源类型分布 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getResourcesDistribute
+参数:
+access_token:用户Token [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true]
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": {
+        "resourceTypeOne": 65,      // 1视频  
+        "resourceTypeTwo": 22,      // 2文档  
+        "resourceTypeThree": 24,    // 3作业
+        "resourceTypeFour": 9,       // 4活动 
+        "resourceTypeFive": 0,       // 5外部链
+        "resourceTypeSix": 1        // 6富文本 
+    },
+    "suc": true
+}

@@ -1,0 +1,234 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "chapter": [
+      {
+        "chapterName": "第一讲 导言",
+        "section": [
+          {
+            "chapterName": "第一讲 导言",
+            "sectionName": "课程导言"
+          },
+          {
+            "chapterName": "第一讲 导言",
+            "sectionName": "章节PPT课件"
+          }
+        ]
+      },
+      {
+        "chapterName": "第二章：需求、供给、价格",
+        "section": [
+          {
+            "chapterName": "第二章：需求、供给、价格",
+            "sectionName": "市场机制如何调节经济"
+          },
+          {
+            "chapterName": "第二章：需求、供给、价格",
+            "sectionName": "课程PPT课件"
+          }
+        ]
+      },
+      {
+        "chapterName": "第九章 市场失灵与政府干预",
+        "section": [
+          {
+            "chapterName": "第九章 市场失灵与政府干预",
+            "sectionName": "简介"
+          },
+          {
+            "chapterName": "第九章 市场失灵与政府干预",
+            "sectionName": "市场失灵"
+          },
+          {
+            "chapterName": "第九章 市场失灵与政府干预",
+            "sectionName": "信息不对称"
+          },
+          {
+            "chapterName": "第九章 市场失灵与政府干预",
+            "sectionName": "课程教学PPT课件"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十五章 货币、通货膨胀与经济周期",
+        "section": [
+          {
+            "chapterName": "第十五章 货币、通货膨胀与经济周期",
+            "sectionName": "章节视频资源"
+          },
+          {
+            "chapterName": "第十五章 货币、通货膨胀与经济周期",
+            "sectionName": "课程PPT课件"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十四章 货币与经济",
+        "section": [
+          {
+            "chapterName": "第十四章 货币与经济",
+            "sectionName": "章节视频资源"
+          }
+        ]
+      },
+      {
+        "chapterName": "第八章 分配理论",
+        "section": [
+          {
+            "chapterName": "第八章 分配理论",
+            "sectionName": "分配理论视频资源"
+          },
+          {
+            "chapterName": "第八章 分配理论",
+            "sectionName": "课程教学PPT"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十章 宏观经济学概论",
+        "section": [
+          {
+            "chapterName": "第十章 宏观经济学概论",
+            "sectionName": "宏观简介"
+          },
+          {
+            "chapterName": "第十章 宏观经济学概论",
+            "sectionName": "课程PPT课件导学"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十一章 长期中的宏观经济",
+        "section": [
+          {
+            "chapterName": "第十一章 长期中的宏观经济",
+            "sectionName": "长期宏观经济分析"
+          },
+          {
+            "chapterName": "第十一章 长期中的宏观经济",
+            "sectionName": "课程PPT课件导学"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十三章 短期中的宏观经济与总需求分析",
+        "section": [
+          {
+            "chapterName": "第十三章 短期中的宏观经济与总需求分析",
+            "sectionName": "短期宏观分析"
+          },
+          {
+            "chapterName": "第十三章 短期中的宏观经济与总需求分析",
+            "sectionName": "课程PPT课件导学"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十六章 宏观经济政策",
+        "section": [
+          {
+            "chapterName": "第十六章 宏观经济政策",
+            "sectionName": "课程视频资源"
+          },
+          {
+            "chapterName": "第十六章 宏观经济政策",
+            "sectionName": "课程PPT课件导学"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十七章 开放经济中的宏观经济",
+        "section": [
+          {
+            "chapterName": "第十七章 开放经济中的宏观经济",
+            "sectionName": "课程微视频"
+          }
+        ]
+      },
+      {
+        "chapterName": "第四章 消费者行为理论",
+        "section": [
+          {
+            "chapterName": "第四章 消费者行为理论",
+            "sectionName": "效用理论"
+          }
+        ]
+      },
+      {
+        "chapterName": "第三章 弹性理论",
+        "section": [
+          {
+            "chapterName": "第三章 弹性理论",
+            "sectionName": "课程视频资源"
+          }
+        ]
+      },
+      {
+        "chapterName": "第五章 生产理论",
+        "section": [
+          {
+            "chapterName": "第五章 生产理论",
+            "sectionName": "课程教学PPT"
+          }
+        ]
+      },
+      {
+        "chapterName": "第六章 成本与收益",
+        "section": [
+          {
+            "chapterName": "第六章 成本与收益",
+            "sectionName": "课程视频资源"
+          }
+        ]
+      },
+      {
+        "chapterName": "第七章 厂商均衡理论",
+        "section": [
+          {
+            "chapterName": "第七章 厂商均衡理论",
+            "sectionName": "课程教学PPT"
+          }
+        ]
+      },
+      {
+        "chapterName": "第十二章 总需求--总供给模型",
+        "section": [
+          {
+            "chapterName": "第十二章 总需求--总供给模型",
+            "sectionName": "视频资源"
+          }
+        ]
+      },
+      {
+        "chapterName": "课程导学",
+        "section": [
+          {
+            "chapterName": "课程导学",
+            "sectionName": "课程导学视频资源"
+          }
+        ]
+      },
+      {
+        "chapterName": "第一章 导言 课后作业作业章",
+        "section": [
+          {
+            "chapterName": "第一章 导言 课后作业作业章",
+            "sectionName": "第一章 导言 课后作业作业章节"
+          }
+        ]
+      },
+      {
+        "chapterName": "课程导学及第一章导言   阶段性讨论活动章",
+        "section": [
+          {
+            "chapterName": "课程导学及第一章导言   阶段性讨论活动章",
+            "sectionName": "课程导学及第一章导言   阶段性讨论活动章节"
+          }
+        ]
+      }
+    ],
+    "courseName": "经济学基础"
+  },
+  "suc": true
+}

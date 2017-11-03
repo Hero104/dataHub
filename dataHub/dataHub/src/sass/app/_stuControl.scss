@@ -1,0 +1,100 @@
+// 一级页面
+#sexNum {
+  .panel-body {
+  }
+  .chart {
+    margin-left: 10%;
+  }
+  .description {
+    margin-left: 15%;
+  }
+  .img {
+    float: right;
+    margin-top: -15px;
+  }
+}
+#stuList {
+  .table-panel {
+  }
+}
+//二级页面
+#stuInfo {
+  ul,li {
+    list-style: none;
+  }
+  .zoomIn {
+    margin-bottom: 20px;
+  }
+  .section {
+    padding: 10px 25px;
+  },
+  .selfInfo {
+    overflow: hidden;
+    &ul {
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    li {
+      float: left;
+      width: 50%;
+      line-height: 35px;
+      padding-left: 10px;
+    }
+  }
+  .content {
+    margin-left: 15px;
+  }
+}
+.study-time {
+  .zoomIn {
+    padding: 20px 0;
+  }
+}
+#progressCourse,#progressLiveness {
+  .panel-body {
+    padding-top: 25px;
+  }
+}
+#courseInfoListTable {
+  .pagination {
+    border: none;
+  }
+}
+#stuNote {
+  .log-nav {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    line-height: 42px;
+    .log-slide {
+      float: left;
+      padding: 0 20px;
+      a {
+        color: #000
+      }
+    }
+    .active {
+      border-bottom: 3px solid #10C4B5;
+    }
+  }
+}
+
+//三级页面
+#courseProgress {
+  position: relative;
+  .content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    .num {
+      font-size: 25px;
+      color: #209E91;
+    }
+  }
+}
+#courseBaseData {
+  .caption {
+    margin-left: 16px;
+  }
+}

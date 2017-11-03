@@ -1,0 +1,94 @@
+﻿###作业统计接口
+
+##### 班级对比
+
+请求路径：http://localhost:8080/statisticsapi/api/homework/listHomeworkClassStatistics?access_token=111&course_id=1735364&homework_id=2320822
+
+
+** GET api/homework/listHomeworkClassStatistics
+
+
+
+参数：
+*access_token:用户Token [是否必要:true]
+
+*course_id:课程Id 数据类型:String [是否必要:true]
+
+*homework_id:作业id 数据类型:String [是否必要:true] 
+
+*请求体*
+
+	{
+		access_token=111  //token
+		course_id=1735364   //课程id
+		homework_id=2320822  //作业id
+	}
+
+*回应体*
+                                                	  成绩对比      及格率对比   提交率对比    班级统计
+	{                                                                                    
+	      	  "sum_visit_count":48,                                                                                //作答次数
+		  "submit_rate":47,                                                  //提交率                          //提交率
+		  "sumbit_user_count":47,                                                         //提交人数           //总提交人数 
+		  "homework_total_score":20,                                                                           //作业总分
+		  "course_name":"建筑工程计量计价（2）",                                                               //课程名称
+		  "class_name":"15工程造价1",             //班级名称   //班级名称    //班级名称   //班级名称           //班级名称
+		  "avg_max_score":7,                      //平均分                                //平均分             //平均分
+		  "homework_name":"测试一",               //作业名称   //作业名称    //作业名称   //作业名称           //作业名称
+		  "class_id":2249979,                     //班级id     //班级id      //班级id     //班级id             //班级id
+		  "sum_study_time":23945,                                                                              //作业总学习时长
+		  "pass_rate":18,                                      //通过率                   //通过率             //通过率
+		  "min_max_score":0,                      //最低分                                //最低分             //最低分
+		  "user_count":100,                                                               //总人数(布置人数)   //总人数
+		  "max_score":19,                         //最高分                                //最高分             //最高分
+		  "homework_id":2320822,                  //作业id     //作业id      //作业id     //作业id             //作业id
+		  "course_id":1735364,                    //课程id     //课程id      //课程id     //课程id             //课程id
+		  "sum_error_count":311                                                                                //错题数       
+		                                                      
+	}
+
+###活动统计接口
+
+##### 班级对比
+请求协议：http://localhost:8080/statisticsapi/api/course/listActivityClassStatistics?access_token=111&course_id=1735364&activity_id=2268962
+
+
+** GET api/course/listActivityClassStatistics
+
+
+
+参数：
+*access_token:用户Token [是否必要:true]
+
+*course_id:课程Id 数据类型:String [是否必要:true]
+
+*activity_id:活动id 数据类型:String [是否必要:true] 
+
+*请求体*
+
+	{
+		access_token=111  //token
+		course_id=1735364  //课程id
+		activity_id=2268962 //活动id
+	}
+
+*回应体*
+                                                     		    成绩对比       发帖统计        班级统计          
+	{                                                                                                  
+	         	 "total_user_count":53,                                  //总发帖数     //总发帖数          //总发帖数
+			 "class_id":2249979,                       //课程id      //课程id       //课程id            //课程id
+			 "join_user_count":7,                                                   //活动发帖人数      //活动发帖人数
+			 "activity_id":2268962,                    //活动id      //活动id       //活动id            //活动id
+			 "avg_join_count":1,                                     //平均发帖数   //平均发帖数        //平均发帖数
+			 "course_name":"建筑工程计量计价（2）",    //课程名称    //课程名称     //课程名称          //课程名称
+			 "min_max_score":0,                        //最低分                                         //最低分
+			 "max_score":85,                           //最高分                                         //最高分
+			 "sum_join_count":7,                                                    //活动总发帖数      //活动总发帖数
+			 "activity_name":"网上学习",               //活动名称    //活动名称     //活动名称          //活动名称
+			 "course_id":1735364,                      //课程id      //课程id       //课程id            //课程id
+			 "class_name":"15工程造价1",               //班级名称    //班级名称     //班级名称          //班级名称
+			 "avg_max_score":36                        //平均分                                         //平均分    
+		
+	}
+
+	

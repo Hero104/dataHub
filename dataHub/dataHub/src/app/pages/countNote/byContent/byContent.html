@@ -1,0 +1,88 @@
+<note-nav nav="2"></note-nav>
+
+<!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+        <!--<div class="grade-type" ba-panel ba-panel-title="问题类别分类">-->
+            <!--<div class="col-md-6">-->
+                <!--<div id="sortScore" style="width: 100%; height: 300px;"></div>-->
+            <!--</div>-->
+            <!--<div class="col-md-6">-->
+                <!--<div ba-panel>-->
+                    <!--<div class="horizontal-scroll">-->
+                        <!--<table class="table table-bordered">-->
+                            <!--<thead>-->
+                            <!--<tr>-->
+                                <!--<th class="text-center">序号</th>-->
+                                <!--<th class="text-center">问题类型</th>-->
+                                <!--<th class="text-center">数量</th>-->
+                                <!--<th class="text-center">占比</th>-->
+                            <!--</tr>-->
+                            <!--</thead>-->
+                            <!--<tbody>-->
+                            <!--<tr ng-repeat="item in gradeSortTableData">-->
+                                <!--<td class="text-center">{{ $index + 1 }}</td>-->
+                                <!--<td class="text-center">{{ item.name }}</td>-->
+                                <!--<td class="text-center">{{ item.value }}</td>-->
+                                <!--<td class="text-center">{{ item.percent }}</td>-->
+                            <!--</tr>-->
+                            <!--</tbody>-->
+                        <!--</table>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="row" id="postList">
+    <div class="col-md-12 log-show">
+        <div ba-panel ba-panel-title="问题统计" >
+            <ul class="log-nav" style="right: 80px;">
+                <li class="log-slide" ng-class="{true:'active',false:''}[logNav==$index]" ng-click="filtrate($index)" ng-repeat="item in dateList">
+                    <a href="javascript:;">{{ item }}</a>
+                </li>
+            </ul>
+            <ul class="post-wrapper">
+                    <li ng-repeat="item in postList" class="list-slide">
+                        <div class="post-list">
+                            <div class="photo">
+                                <img src="assets/img/face.svg" alt={{ item.teacher }}>
+                            </div>
+                            <div class="info">
+                                <p class="content">{{ item.ask.ASKCONTENT }}</p>
+                                <strong class="teacher">{{ item.ask.askCreateUser }}</strong>
+                                <i class="time">{{ item.ask.askCreateTime | delDateTail }}</i>
+                                <a href="javascript:;" class="time" ng-click="replayShow($index)">查看回复<span>({{ item.answers.length }})</span></a>
+                            </div>
+                        </div>
+                        <ul class="replyList" hidden>
+                            <li ng-repeat="reply in item.answers">
+                                <div class="post-list">
+                                    <div class="photo">
+                                        <img src="assets/img/face.svg" alt={{ reply.CreateUserName }}>
+                                    </div>
+                                    <div class="info">
+                                        <p class="content">{{ reply.answerContent }}</p>
+                                        <strong class="teacher">{{ reply.answerName }}</strong>
+                                        <i class="time">{{ reply.createTime | delDateTail }}</i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="page text-center">
+                        <paging class="small pagination"
+                                page="page.currentPage"
+                                page-size="page.pageSize"
+                                total="page.total"
+                                scroll-top="false"
+                                hide-if-empty="true"
+                                show-prev-next="true"
+                                paging-action="changePage(page)">
+                        </paging>
+                    </li>
+                </ul>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>

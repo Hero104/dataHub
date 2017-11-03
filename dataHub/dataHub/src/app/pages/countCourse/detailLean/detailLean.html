@@ -1,0 +1,77 @@
+<!--基本数据 -所有 -->
+<div class="row pie-charts">
+    <div class="pie-chart-item-container" id="baseNum" ng-repeat="chart in baseCharts">
+        <div ba-panel>
+            <div class="pie-chart-item">
+                <div class="description">
+                    <div>{{ ::chart.description }}</div>
+                    <div class="description-stats">{{ ::chart.stats }}</div>
+                </div>
+                <i class="chart-icon i-{{ ::chart.icon }}" style="display: block"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!--视频播放分布 - 视频-->
+<!--<div class="row" ng-if="resType==1">-->
+    <!--<div class="col-md-10" ba-panel ba-panel-title="视频播放分布">-->
+        <!--<div id="videoEchart" style="width: 100%;height: 300px;"></div>-->
+    <!--</div>-->
+    <!--<div class="col-md-2" ba-panel ba-panel-title="拖拽次数">-->
+        <!--<div class="popular-app-img-container" id="numDrag">-->
+            <!--<div class="popular-app-img text-center">-->
+                <!--<img style="width: 100%;" ng-src="{{::( 'app/my-app-logo.png' | appImage )}}"/>-->
+                <!--<div class="num-drag">{{ numDrag }}</div>-->
+            <!--</div>-->
+            <!--<div class="text-center view-btn">-->
+                <!--<button ui-sref="logList({logType:1})" class="btn btn-info">查看拖拽日志</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--学生统计 - 视频/链接/富文本-->
+<div class="row" ng-if="resType==1||resType==2||resType==5||resType==6">
+    <div class="col-md-12 log-show">
+        <div ba-panel ba-panel-title="学生统计" class="countTable">
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="text-center">序号</th>
+                        <th class="text-center">学生姓名</th>
+                        <th class="text-center">{{ resType==1||resType==2 ? '观看次数' : '学习次数' }}</th>
+                        <th class="text-center" ng-show="resType==1||resType==2">观看时长</th>
+                        <!--<th class="text-center">操作</th>-->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.name }}</td>
+                        <td class="text-center">{{ item.num }}</td>
+                        <td class="text-center" ng-show="resType==1||resType==2">{{ item.time }}</td>
+                        <!--<td class="text-center">-->
+                            <!--<button class="btn btn-info btn-xs">观看日志</button>-->
+                        <!--</td>-->
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="5" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)"></paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+#courseType {
+  .zoomIn {
+    padding-bottom: 420px;
+  }
+}
+
+#courseShow {
+  @media screen and (min-width: 993px) and (max-width: 1300px) {
+    .course {
+      width: 50%;
+    }
+  }
+  @media screen and (min-width: 1300px) and (max-width: 1680px) {
+    .course {
+      width: 33.33333333%;
+    }
+  }
+  .img-wrapper {
+    margin-bottom: 10px;
+    height: 250px;
+    img {
+      height: 100%;
+    }
+  }
+  .title {
+    text-align: center;
+  }
+  .courseInfo {
+    padding-top: 5px;
+    list-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    //margin-left: 20px;
+    .btn {
+      margin-top: 10px;
+      padding: 3px 30px
+    }
+  }
+}

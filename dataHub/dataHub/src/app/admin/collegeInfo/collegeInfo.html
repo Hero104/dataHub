@@ -1,0 +1,104 @@
+<!--基础信息-->
+<div class="row base-info">
+    <div class="col-md-12" ba-panel>
+        <div class="col-md-5 left">
+            <h5 class="title-base">学院综合排名 <span>{{ scoreData.rankingAll }}</span></h5>
+            <ul class="score">
+                <li class="sort" ng-repeat="item in scoreData.scoreType">
+                    <strong class="num">{{ item.value }}</strong>
+                    <p class="type">{{ item.name }}</p>
+                </li>
+            </ul>
+            <div class="score-scale">
+                <div id="scoreScale" style="width: 100%;height: 200px;"></div>
+            </div>
+        </div>
+        <div class="col-md-7 right">
+            <h5 class="title-base">
+                <select name="time" id="time">
+                    <option ng-repeat="item in timeData" value="{{ item.time }}">{{ item.time }}</option>
+                </select>
+                <span>学习情况对比</span>
+            </h5>
+            <ul class="count-list row">
+                <li class="count-slider row" ng-repeat="item in studyInfoData">
+                    <div class="col-md-7 content-left">
+                        <div class="icon col-md-3">
+                            <img ng-src="{{ item.img }}" style="width: 55px;height: 55px;" alt="">
+                        </div>
+                        <div class="type col-md-9">
+                            <p class="login">本月{{ item.type }}登录<span>{{ item.numLogin }}</span>人</p>
+                            <p class="study">本月{{ item.type }}学习<span>{{ item.numStudy }}</span>人</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 content-right">
+                        <p class="scale">{{ item.percent }}</p>
+                        <p class="name">{{ item.typeName }}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--学习趋势分析-->
+<div class="row log-show">
+    <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12 chartShow" ba-panel ba-panel-title="学习趋势分析" ba-panel-class="medium-panel">
+        <ul class="log-nav">
+            <li class="log-slide" ng-class="{true:'active',false:''}[logNav==$index]" ng-click="filtrate($index)"
+                ng-repeat="item in dateList">
+                <a href="javascript:;">{{ item }}</a>
+            </li>
+        </ul>
+        <date-picker ng-show="datePickerShow"></date-picker>
+        <div id="amchart" style="padding:0 20px"></div>
+        <div class="text-center none-data" hidden>暂时没有数据...</div>
+    </div>
+</div>
+
+<!--统计-->
+<div class="row data-count">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12">
+            <div class="col-md-4" ba-panel ba-panel-title="学习时段统计">
+                <div id="sortPost" style="width: 100%;height: 350px;"></div>
+            </div>
+            <div class="col-md-4" ba-panel ba-panel-title="课程成绩统计">
+                <div id="sortScore" style="width: 100%; height: 350px;"></div>
+            </div>
+            <div class="col-md-4 teacher" ba-panel ba-panel-title="教师数据统计">
+                <ul class="wrapper">
+                    <li class="row slider" ng-repeat="item in teacherData">
+                        <div class="col-md-4 img">
+                            <img ng-src="{{ item.img }}" alt="">
+                        </div>
+                        <div class="col-md-8 dec">
+                            <p class="name">{{ item.name }}</p>
+                            <p class="value">{{ item.value }}</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--标签-->
+<div class="row sign-wrapper" ng-repeat="module in chartData">
+    <div class="col-md-12" ba-panel ba-panel-title="{{ module.name }}">
+        <div class="col-md-6 left">
+            <div class="sign" style="width: 100%;height: 400px;"></div>
+        </div>
+        <div class="col-md-6 right">
+            <ul class="ul" ng-init="type=$index">
+                <li class="sort" ng-repeat="item in module.sort">
+                    <h6 class="title">{{ item.name }}</h6>
+                    <p ng-show="type!=2">登录次数 <span class="num">{{ item.one }}</span>次</p>
+                    <p ng-show="type==2">浏览次数 <span class="num">{{ item.one }}</span>次</p>
+                    <p>登录人数 <span class="num">{{ item.two }}</span>人</p>
+                    <p>人均登录 <span class="num">{{ item.three }}</span>次/人</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,109 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "rows": [
+      {
+        "minScore": 1.08,
+        "avgScore": 1.08,
+        "maxScore": 1.08,
+        "CourseName": "毛泽东概论",
+        "coursesNum": 1,
+        "BatchCoursesId": 436702
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      },
+      {
+        "minScore": 6,
+        "avgScore": 6,
+        "maxScore": 6,
+        "CourseName": "高等数学（上）",
+        "coursesNum": 1,
+        "BatchCoursesId": 498751
+      }
+    ],
+    "pageNo": 1,
+    "pageSize": 2,
+    "totalRecord": 3,
+    "totalPage": 2
+  },
+  "suc": true
+}

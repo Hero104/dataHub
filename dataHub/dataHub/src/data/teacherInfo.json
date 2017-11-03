@@ -1,0 +1,73 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "userId": 66645,
+    "nickName": "高职演示教师1",
+    "accountName": "gzysteacher1",
+    "mobiPhone": "18901234567",
+    "email": "18901320132@163.com",
+    "createTime": "2016-06-03 18:58:15",
+    "portrait": "http://resourcepath.oss-cn-beijing.aliyuncs.com/course/1003/image/0IPXPpV7wfvfx1ZlO.jpg",
+    "organization": {
+      "orgId": 90,
+      "orgName": "高职演示机构（模板）",
+      "orgCode": "30000",
+      "orgStructId": 910,
+      "orgStructName": "高职演示机构省校（模板）",
+      "orgStructCode": "31000"
+    },
+    "roles": [
+      {
+        "roleId": 512,
+        "roleName": "论文教师",
+        "roleCode": null,
+        "identylabel": "lunwenjiaoshi"
+      },
+      {
+        "roleId": 412,
+        "roleName": "高职共建教师",
+        "roleCode": null,
+        "identylabel": "remedialTeacher"
+      },
+      {
+        "roleId": 409,
+        "roleName": "高职教务管理员",
+        "roleCode": null,
+        "identylabel": "gzjw"
+      },
+      {
+        "roleId": 513,
+        "roleName": "高职演示指导教师",
+        "roleCode": null,
+        "identylabel": "zhi"
+      },
+      {
+        "roleId": 415,
+        "roleName": "高职考点&监考管理员",
+        "roleCode": null,
+        "identylabel": "examsite"
+      },
+      {
+        "roleId": 416,
+        "roleName": "高职评阅&审核人员",
+        "roleCode": null,
+        "identylabel": "YJLS-ROLE"
+      },
+      {
+        "roleId": 411,
+        "roleName": "高职责任教师",
+        "roleCode": null,
+        "identylabel": "responsibleTeacher"
+      }
+    ],
+    "teacherId": 188639,
+    "teacherName": "高职演示教师1",
+    "teacherNumber": "001941",
+    "teacherIdCard": "120101198406018995",
+    "sex": "男",
+    "professionalTitle": "副高",
+    "educationBackground": "硕士"
+  },
+  "suc": true
+}

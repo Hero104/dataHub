@@ -1,0 +1,164 @@
+<div class="base-wrapper">
+    <!--基本数据-->
+    <div class="row pie-charts">
+        <div class="pie-chart-item-container" ng-repeat="chart in baseNum" style="width: 20%;">
+            <div ba-panel>
+                <div class="pie-chart-item">
+                    <div class="description">
+                        <div>{{ ::chart.description }}</div>
+                        <div class="description-stats">{{ ::chart.stats }}</div>
+                    </div>
+                    <i class="chart-icon i-{{ ::chart.icon }}" style="display: block"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--学生学习统计-->
+    <div class="row log-show">
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12 chartShow" ba-panel ba-panel-title="学生学习统计" ba-panel-class="medium-panel">
+            <ul class="log-nav">
+                <li class="log-slide" ng-class="{true:'active',false:''}[logNav==$index]" ng-click="filtrate($index)"
+                    ng-repeat="item in dateList">
+                    <a href="javascript:;">{{ item }}</a>
+                </li>
+            </ul>
+            <date-picker ng-show="datePickerShow"></date-picker>
+            <div id="amchart" style="padding:0 20px"></div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+
+    <!--学员人数统计 + 周学习率统计-->
+    <div class="row two-round">
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12">
+            <div class="row">
+                <div class="col-md-6" ba-panel ba-panel-title="学员人数统计">
+                    <div id="collegeChart" style="width: 100%;height: 500px;"></div>
+                </div>
+                <div class="col-md-6" ba-panel ba-panel-title="周学习率统计">
+                    <div id="studyChart" style="width: 100%;height: 500px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--学院学习时段分布-->
+    <div class="row time-sort">
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12" ba-panel ba-panel-title="学院学习时段分布">
+            <div id="contrastCollege" style="width: 100%"></div>
+        </div>
+    </div>
+
+    <!--学院对比-->
+    <div class="row compare-college">
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12 log-show" ba-panel ba-panel-title="学院对比">
+            <ul class="log-nav" style="right: 80px;">
+                <li class="log-slide" ng-class="{true:'active',false:''}[collegeNav==$index]" ng-click="filtrateCollege($index)" ng-repeat="item in collegeFilter">
+                    <a href="javascript:;">{{ item }}</a>
+                </li>
+            </ul>
+            <div id="countPost" style="height: 100%;height: 400px;"></div>
+        </div>
+    </div>
+
+    <!--学院课程开设对比-->
+    <div class="row" id="courseCompared">
+        <div class="col-md-12">
+            <div class="log-show" ba-panel ba-panel-title="学院课程开设对比" ba-panel-class="medium-panel traffic-panel">
+                <div class="channels-block" ng-class="{'transparent': transparent}">
+                    <div class="traffic-chart" id="trafficChart">
+                        <div class="canvas-holder">
+                            <canvas id="chart-area" width="280" height="280"></canvas>
+                            <h2 class="title">课程建设</h2>
+                        </div>
+                    </div>
+                    <div class="channels-info">
+                        <div>
+                            <div class="channels-info-item" ng-repeat="label in doughnutData.labels"
+                                 ng-init="i = $index; data = doughnutData.datasets[0]">
+                                <div class="legend-color" style="background-color: {{::data.backgroundColor[i]}}"></div>
+                                <p>{{::label}}<span class="channel-number">+{{data.percentage[i]}}%</span></p>
+                                <div class="progress progress-sm channel-progress">
+                                    <div class="progress-bar " role="progressbar"
+                                         aria-valuenow="{{data.percentage[i]}}" aria-valuemin="0" aria-valuemax="100"
+                                         style="width: {{item.percentage}}%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center none-data" hidden>暂时没有数据...</div>
+            </div>
+        </div>
+    </div>
+
+    <!--学习排行榜-->
+    <div class="row ranking">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12">
+                <div class="col-md-4" ng-repeat="type in ranking" ba-panel ba-panel-title="{{ type.name }}" >
+                    <div class="wrapper" ng-repeat="item in type.list">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" ng-class="type.color"
+                                 role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ item.finish }}">
+                                <span class="sr-only">40% Complete (success)</span>
+                            </div>
+                        </div>
+                        <div class="dec">
+                            <span class="time">{{ item.time }}分钟</span>
+                            <span class="name">{{ item.name }}({{ item.college }})</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--学院统计-->
+    <div class="row count-table">
+        <div class="col-lg-12 col-md-12 col-sm-7 col-xs-12" ba-panel ba-panel-title="学院统计">
+            <div class="horizontal-scroll">
+                <table class="table table-hover text-center">
+                    <thead>
+                    <tr>
+                        <td>学院名称</td>
+                        <td>学生数</td>
+                        <td>教师数</td>
+                        <td>课程数</td>
+                        <td>专业数</td>
+                        <td>操作</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in collegeTableData">
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.numStudent }}</td>
+                        <td>{{ item.numTeacher }}</td>
+                        <td>{{ item.numCourse }}</td>
+                        <td>{{ item.numSpecial }}</td>
+                        <td>
+                            <button class="btn btn-info btn-sm" ng-click="collegeInfo()">查看</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="6" class="text-center">
+                            <paging class="pagination small"
+                                     page="page.current"
+                                     page-size="page.pageSize"
+                                     total="page.total"
+                                     scroll-top="false"
+                                     hide-if-empty="true"
+                                     show-prev-next="true"
+                                     paging-action="changePage(page)"></paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

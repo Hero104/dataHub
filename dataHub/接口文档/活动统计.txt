@@ -1,0 +1,222 @@
+1、接口说明：活动统计  请求方式：GET,安全协议(true)
+
+地址:http://10.96.13.183:8080/statisticsapi/api/course/listCourseActivty
+{
+"access_token":"111"
+
+"course_Ids":1735594
+
+"status":1
+
+"activity_name":"社会"
+}
+
+参数：
+
+access_token：用户Token[是否必要true]
+
+course_Ids:课程id  数据类型：String[是否必要true]
+
+status:课程状态 数据类型：Integer[是否必要true]"status":1  (0:全部 1:未过期  2:已过期)
+
+activity_name:活动名称 数据类型：String[是否必要false]
+
+
+{
+   "code":0,
+   "errcode":0,
+   "data":[
+      
+      {"course_ids":"12359",   //课程id
+       "course_name":"经济学基础",   //课程名称
+       "activity_id":560852,   //活动id
+       "activityname":"第二章和第三章 阶段性讨论",  //活动名称
+       "total_user_count":509,  //活动总人数
+       "total_user_join_count":505,  //活动发帖总人数
+       "total_join_count":752,  //总发帖数
+       "avg_join_count":1,  //平均发帖数
+       "maxScore":100,  //活动最高分
+       "avgScore":88,  //活动平均分
+       "minScore":60,  //活动最低分
+       "is_finished":0   //活动是否能完成
+       }
+          ]
+       
+     
+    "suc":true
+
+}
+
+
+
+
+2、接口说明：活动统计 活动总和 请求方式：GET,安全协议(true)
+
+地址:http://10.96.13.183:8080/statisticsapi/api/course/listActivtySum
+{
+"access_token":"111"
+
+"course_Ids":1735594
+
+}
+
+参数：
+
+access_token：用户Token[是否必要true]
+
+course_Ids:课程id  数据类型：String[是否必要true]
+
+
+{
+   "code":0,
+   "errcode":0,
+   "data":[
+      
+      {
+          "total_user_join_count":557,//活动总人数
+          "total_join_count":632,  //总发帖数
+          "total_user_count":572,   //活动发帖总人数总发帖数
+          "total_activity_count":0,  //总活动数  
+          "total_activity_finished_count":0  //活动完成数
+        
+      }
+   
+     ]，
+     
+    "suc":true
+
+}
+
+
+
+
+
+3、接口说明：活动统计 发帖分布 请求方式：GET,安全协议(true)
+
+地址:http://10.96.13.183:8080/statisticsapi/api/course/listForenStatistics
+{
+"access_token":"111"
+
+"course_Id":1735594
+
+"activity_id":186
+
+}
+
+参数：
+
+access_token：用户Token[是否必要true]
+
+course_Id:课程id  数据类型：Long[是否必要true]
+
+activity_id:活动id  数据类型：Long[是否必要true]
+{
+   "code":0,
+   "errcode":0,
+   "data":[
+      
+      {
+          "join_count":2, //发帖范围
+          "user_id":1   //人数
+
+        
+      }
+   
+     ]，
+     
+    "suc":true
+
+}
+
+
+
+4、接口说明：活动统计 分数发布 请求方式：GET,安全协议(true)
+
+地址:http://10.96.13.183:8080/statisticsapi/api/course/listActivityScoreStatistics
+{
+"access_token":"111"
+
+"course_Ids":1735594
+
+"activity_id":186
+
+}
+
+参数：
+
+access_token：用户Token[是否必要true]
+
+course_Id:课程id  数据类型：Long[是否必要true]
+
+activity_id:活动id  数据类型：Long[是否必要true]
+{
+   "code":0,
+   "errcode":0,
+   "data":[
+      
+      {
+          "score_level":1,//序号
+          "user_count":1   //人数
+        
+      }
+   
+     ]，
+     
+    "suc":true
+
+}
+
+
+
+5、接口说明：活动统计 学生统计 请求方式：GET,安全协议(true)
+
+地址:http://10.96.13.183:8080/statisticsapi/api/course/listActivityStudentStatistics
+{
+"access_token":"111"
+
+"course_Ids":1735594
+
+"activity_id":186
+
+}
+
+参数：
+
+access_token：用户Token[是否必要true]
+
+course_Id:课程id  数据类型：Long[是否必要true]
+
+activity_id:活动id  数据类型：Long[是否必要true]
+{
+   "code":0,
+   "errcode":0,
+   "data":[
+      
+      {
+          "user_id":618, //学生id    
+          "nickname":"傅韶釜", //姓名
+          "join_count":0,//发帖数
+          "max_score":0, //最高分
+          "avg_score":0, //平均分
+          "min_score":0,  //最低分
+          "is_join":0  //是否参加(0 未参加  1 已参加)
+
+      },
+
+
+      {
+          "user_id":670, //学生id 
+          "nickname":"苏志强", //姓名
+          "join_count":0, //发帖数
+          "max_score":0,   //最高分
+          "avg_score":0,  //平均分
+          "min_score":0,  //最低分
+          "is_join":0}  //是否参加(0 未参加  1 已参加)
+   
+     ]，
+     
+    "suc":true
+
+}
+
+

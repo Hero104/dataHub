@@ -1,0 +1,49 @@
+<div class="row" id="postList">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="发帖明细" >
+            <div class="back">
+                <button class="btn btn-info" ng-click="back()">返回</button>
+            </div>
+            <ul>
+                <li ng-repeat="item in postList" class="list-slide">
+                    <div class="post-list">
+                        <div class="photo">
+                            <img ng-src="{{ item.photo }}" alt={{ item.teacher }}>
+                        </div>
+                        <div class="info">
+                            <p class="content">{{ item.content }}</p>
+                            <strong class="teacher">{{ item.teacher }}</strong>
+                            <i class="time">{{ item.time }}</i>
+                            <a href="javascript:;" class="time" ng-click="replayShow($index)">查看12条评论</a>
+                        </div>
+                    </div>
+                    <ul class="replyList" hidden>
+                        <li ng-repeat="reply in item.reply">
+                            <div class="post-list">
+                                <div class="photo">
+                                    <img ng-src="{{ reply.photo }}" alt={{ reply.student }}>
+                                </div>
+                                <div class="info">
+                                    <p class="content">{{ reply.ask }}</p>
+                                    <strong class="teacher">{{ reply.student }}</strong>
+                                    <i class="time">{{ reply.time }}</i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="page text-center">
+                <paging class="small pagination"
+                        page="page.currentPage"
+                        page-size="page.pageSize"
+                        total="page.total"
+                        scroll-top="false"
+                        hide-if-empty="true"
+                        show-prev-next="true"
+                        paging-action="changePage(page)">
+                </paging>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,140 @@
+$Blur: #42CEF0;
+$Gray: #CCCCCC;
+
+// 基本信息
+.base-info {
+  .title-base {
+    border-bottom: 1px solid $Gray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .left {
+    border-right: 1px solid $Gray;
+    .title-base {
+      span {
+        font-size: 25px;
+        color: $Blur;
+      }
+    }
+    .score {
+      padding-left: 0;
+      .sort {
+        width: 33.33333%;
+        text-align: center;
+        display: inline-block;
+        border-left: 1px solid $Blur;
+        font-size: 18px;
+        &:first-child {
+          border-left: none;
+        }
+        .num {
+          color: $Blur;
+          line-height: 40px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .right {
+    p {
+      margin-bottom: 0;
+      line-height: 28px;
+    }
+    .title-base {
+      line-height: 52px;
+      #time {
+        float: right;
+        margin-top: 10px;
+      }
+    }
+    .count-list {
+      margin-top: 20px;
+      .count-slider {
+        margin-bottom: 30px;
+        .content-left {
+          border-right: 1px solid $Blur;
+          .type {
+            span {
+              display: inline-block;
+              margin: 0 5px 0 50px;
+              color: $Blur;
+              font-size: 20px;
+            }
+          }
+        }
+        .content-right {
+          text-align: center;
+          .scale {
+            color: $Blur;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 统计
+.data-count {
+  .teacher {
+    .wrapper {
+      height: 340px;
+      padding-left: 0;
+      .slider {
+        padding: 8px 0;
+        .img {
+          text-align: center;
+          img {
+            width: 70px;
+            height: 70px;
+          }
+        }
+        .dec {
+          p {
+            margin-bottom: 0;
+            line-height: 30px;
+          }
+          .value {
+            color: $Blur;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 标签
+.sign-wrapper {
+  .right {
+    .ul {
+      margin-left: -100px;
+      overflow: hidden;
+      .sort {
+        width: 40%;
+        float: left;
+        margin-left: 10%;
+        height: 160px;
+        margin-bottom: 30px;
+        border: 1px solid $Gray;
+        padding: 10px 15px;
+        .title {
+          text-align: center;
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 16px;
+          .num {
+            color: $Blur;
+            font-size: 22px;
+            display: inline-block;
+            margin: 0 20px;
+          }
+        }
+      }
+    }
+  }
+}

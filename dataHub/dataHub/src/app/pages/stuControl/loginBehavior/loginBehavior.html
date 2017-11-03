@@ -1,0 +1,43 @@
+<nav-slide nav="2"></nav-slide>
+
+<div class="row" id="historyInfo">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="登录历史" ba-panel-class="with-scroll" id="countTable">
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="text-center">序号</th>
+                        <th class="text-center">登录时间</th>
+                        <th class="text-center">登录地址</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.date }}</td>
+                        <td class="text-center">{{ item.address }}</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)">
+                            </paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,95 @@
+﻿##### 资源统计 -- 按资源统计--按章统计
+
+http://123.56.255.86:8080/statisticsapi/api/resources/listResourcesChapter?access_token=111&course_id=12359
+
+** GET api/resources/listResourcesChapter
+
+
+参数：
+*access_token:用户Token [是否必要:true]
+
+*course_id:课程Id 数据类型:Long [是否必要:true]
+
+
+*请求体*
+
+	{
+		access_token=111,        //token
+	}   course_id=12359         // 课程Id 
+
+*回应体*
+
+	        {
+            course_id: 12359,                      //课程id 
+			chapter_id: 263,                       //章id 
+            chapter_name: "第一讲 导言",           //章名称 
+            resource_count: 2,                     //资源数 
+            sum_study_time: 1039596,               //总学习时长 
+	        avg_study_time: 2050,                  //平均学习时长 
+	        study_count: 2658,                     //学习次数 
+	        ask_count: 22,                         //答疑数量
+	        note_count: 1474,                      //笔记数量  
+            finished_user_count: 480               //完成人数
+            },
+            {
+            course_id: 12359,                                 //课程id 
+            chapter_id: 510,                                  //章id 
+            chapter_name: "第二章：需求、供给、价格",         //章名称 
+            resource_count: 2,                                //资源数 
+            sum_study_time: 1087798,                          //总学习时长 
+            avg_study_time: 2150,                             //平均学习时长 
+            study_count: 2438,                                //学习次数 
+            ask_count: 14,                                    //答疑数量
+            note_count: 1437,                                 //笔记数量  
+            finished_user_count: 476                          //完成人数
+            }
+			
+			
+			
+			
+			
+##### 资源统计 -- 按资源统计--按节统计
+
+http://123.56.255.86:8080/statisticsapi/api/resources/listResourcesSection?access_token=111&course_id=12359
+
+** GET api/resources/listResourcesSection
+
+
+参数：
+*access_token:用户Token [是否必要:true]
+
+*course_id:课程Id 数据类型:Long [是否必要:true]
+
+
+*请求体*
+
+	{
+		access_token=111,        //token
+	}   course_id=12359         // 课程Id 
+
+*回应体*
+
+	       {
+           	course_id: 12359,                      //课程id 
+		   section_id: 1469,                      //节id 
+           	section_name: "课程导言",              //节名称 
+           	resource_count: 1,                     //资源数 
+           	sum_study_time: 382155,                //总学习时长 
+	       avg_study_time: 754,                   //平均学习时长 
+	       study_count: 1233,                     //学习次数 
+	       ask_count: 6,                          //答疑数量
+	       note_count: 416,                       //笔记数量  
+          	 finished_user_count: 495               //完成人数
+           },
+           {
+          	 course_id: 12359,                            //课程id 
+          	 section_id: 1470,                            //节id 
+          	 section_name: "市场机制如何调节经济",        //节名称 
+          	 resource_count: 1,                           //资源数 
+           	sum_study_time: 553217,                      //总学习时长 
+          	 avg_study_time: 1095,                        //平均学习时长 
+          	 study_count: 1279,                           //学习次数 
+          	 ask_count: 6,                                //答疑数量
+          	 note_count: 498,                             //笔记数量  
+         	  finished_user_count: 494                     //完成人数
+           }

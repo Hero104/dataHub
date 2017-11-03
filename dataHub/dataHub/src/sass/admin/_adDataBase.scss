@@ -1,0 +1,37 @@
+.base-wrapper {
+  padding: 30px 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #F0F3F4;
+  z-index: 999;
+  overflow-y: scroll;
+  .ranking {
+    .wrapper {
+      margin-bottom: 15px;
+      .progress {
+        margin-bottom: 10px;
+      }
+      .dec {
+        .time {
+          float: right;
+        }
+      }
+    }
+  }
+  .count-table {
+    margin-bottom: 50px;
+    .btn {
+      padding: 2px 20px;
+    }
+  }
+  #courseCompared {
+    .canvas-holder {
+      .title {
+        position: absolute;
+        left: 100px;
+      }
+    }
+  }
+}

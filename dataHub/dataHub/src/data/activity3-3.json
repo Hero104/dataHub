@@ -1,0 +1,37 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "total_user_count": 53,
+      "class_id": 2249979,
+      "join_user_count": 7,
+      "activity_id": 2268962,
+      "avg_join_count": 1,
+      "course_name": "建筑工程计量计价（2）",
+      "min_max_score": 0,
+      "max_score": 85,
+      "sum_join_count": 7,
+      "activity_name": "网上学习有哪些好处，你计划怎么学？15造价３班",
+      "course_id": 1735364,
+      "class_name": "15工程造价1",
+      "avg_max_score": 36
+    },
+    {
+      "total_user_count": 47,
+      "class_id": 2249950,
+      "join_user_count": 42,
+      "activity_id": 2268962,
+      "avg_join_count": 1,
+      "course_name": "建筑工程计量计价（2）",
+      "min_max_score": 80,
+      "max_score": 90,
+      "sum_join_count": 49,
+      "activity_name": "网上学习有哪些好处，你计划怎么学？15造价３班",
+      "course_id": 1735364,
+      "class_name": "15工程造价3",
+      "avg_max_score": 89
+    }
+  ],
+  "suc": true
+}

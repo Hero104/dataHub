@@ -1,0 +1,81 @@
+<homework-nav nav="2"></homework-nav>
+
+<div class="row" id="gradeHomework">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="班级成绩对比" ba-panel-class="with-scroll ">
+            <div id="stacked-bar" style="width: 100%;height: 350px;"></div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="rageCompare">
+    <div class="col-md-6" ba-panel ba-panel-title="班级及格率对比">
+        <div id="zoomAxisChart" class="admin-chart" style="width: 100%;height: 400px;"></div>
+    </div>
+    <div class="col-md-6 pie-charts submitRage" ba-panel ba-panel-title="班级提交率对比">
+        <div class="pie-chart-item-container" ng-repeat="chart in submitRageList" id="passRateClassSubmit">
+            <div class="pie-chart-item">
+                <div class="chart" rel="{{ ::chart.color }}" data-percent="60"> <span class="percent"></span> </div>
+                <div class="description">
+                    <div>{{ ::chart.name }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div><a href="javascript:;" class="rageCompare-more" ng-click="more()" ng-show="page.total>4">更多</a></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="班级统计" id="countTable">
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <td class="text-center">ID</td>
+                        <td class="text-center">班级名称</td>
+                        <td class="text-center">布置人数</td>
+                        <td class="text-center">提交人数</td>
+                        <td class="text-center">及格率</td>
+                        <td class="text-center more-right">提交率</td>
+                        <td class="text-center">最高分</td>
+                        <td class="text-center">最低分</td>
+                        <td class="text-center">平均分</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.className }}</td>
+                        <td class="text-center">{{ item.setPeopleNum }}</td>
+                        <td class="text-center">{{ item.subPeopleNum }}</td>
+                        <td class="text-center">{{ item.passRage }}</td>
+                        <td class="text-center more-right">{{ item.subRage }}</td>
+                        <td class="text-center">{{ item.gradeHeightest }}</td>
+                        <td class="text-center">{{ item.gradeLowest }}</td>
+                        <td class="text-center">{{ item.gradeAverage }}</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="9" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)">
+                            </paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+

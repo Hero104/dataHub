@@ -1,0 +1,57 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-05-31",
+      "user_study_count": "1828"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-02",
+      "user_study_count": "1146"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-13",
+      "user_study_count": "20958"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-14",
+      "user_study_count": "4082"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-15",
+      "user_study_count": "4623"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-16",
+      "user_study_count": "8347"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-17",
+      "user_study_count": "5105"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-18",
+      "user_study_count": "5485"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-19",
+      "user_study_count": "46102"
+    },
+    {
+      "courseId": 1735594,
+      "statisDate": "2017-06-20",
+      "user_study_count": "150354"
+    }
+  ],
+  "suc": true
+}

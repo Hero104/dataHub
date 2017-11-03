@@ -1,0 +1,43 @@
+<homework-nav nav="3"></homework-nav>
+
+<div class="row pie-charts">
+    <div class="pie-chart-item-container" id="baseNum" ng-repeat="chart in baseCharts">
+        <div ba-panel>
+            <div class="pie-chart-item">
+                <div class="description">
+                    <div>{{ ::chart.description }}</div>
+                    <div class="description-stats">{{ ::chart.stats }}</div>
+                </div>
+                <i class="chart-icon i-{{ ::chart.icon }}" style="display: block"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="试卷分析">
+            <ul class="exam">
+                <li class="exam-slide">
+                    <p class="ask">1、什么是幸福？</p>
+                    <ul>
+                        <li class="answer-list"><span>A、</span><span>猫吃鱼</span></li>
+                        <li class="answer-list"><span>B、</span><span>狗吃肉</span></li>
+                        <li class="answer-list"><span>C、</span><span>奥特曼打小怪兽</span></li>
+                    </ul>
+                    <div>
+                        <p class="answer">
+                            <span class="result">正确答案：</span><span style="font-weight: bold;">A</span>
+                            <span class="ml30">本题正确率：</span><span>94%</span>
+                        </p>
+                        <p class="time">
+                            <span>最长耗时</span><span>30s</span>
+                            <span class="ml15">最短耗时</span><span>10s</span>
+                            <span class="ml15">平均耗时</span><span>20s</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

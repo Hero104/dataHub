@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f26f324b-0605-47f0-b8fa-a3de566e3750" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="countStuCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStuCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="token.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataHub/src/data/token.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="1006" lean-forward="false" selection-start-line="1" selection-start-column="1006" selection-end-line="1" selection-end-column="1006" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>baConfig</find>
+      <find>progress</find>
+      <find>postChartData</find>
+      <find>currentPage</find>
+      <find>timeLineData</find>
+      <find>charData</find>
+      <find>paging</find>
+      <find>collegeInfo</find>
+      <find>colorHelper</find>
+      <find>resType</find>
+      <find>courseType</find>
+      <find>data</find>
+      <find>resource</find>
+      <find>layoutColors</find>
+      <find>courseId</find>
+      <find>baUtil</find>
+      <find>pieColor</find>
+      <find>time</find>
+      <find>submitRageList</find>
+      <find>submit_rate</find>
+      <find>sumbitRageClass</find>
+      <find>color</find>
+      <find>perArr</find>
+      <find>chart</find>
+      <find>total</find>
+      <find>wordCloud</find>
+      <find>c</find>
+      <find>score</find>
+      <find>countStu</find>
+      <find>console.log(</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>user_study_count</replace>
+      <replace>courseCompared</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/admin.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/app.js" />
+        <option value="$PROJECT_DIR$/dataHub/gulp/inject.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/sass/admin/adDataBase.scss" />
+        <option value="$PROJECT_DIR$/dataHub/src/sass/app/adDataBase.scss" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/admin.service.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages/admin.service.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/adDataBase/adDataBase.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/college.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/services/chart.service.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/theme.constants.js" />
+        <option value="$PROJECT_DIR$/dataHub/release/index.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/components/baSidebar/baSidebar.service.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/theme.run.js" />
+        <option value="$PROJECT_DIR$/dataHub/.tmp/serve/index.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/index.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/data/admin/adDataBase/note.json" />
+        <option value="$PROJECT_DIR$/dataHub/src/data/admin/adDataBase/uploaderDataUrl.json" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages/countHomework/countHomeworkCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages/stuControl/stuReport/stuReport.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/sass/main.scss" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/components/contentTop/contentTop.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/data/admin/adDataBase/compareCourse.json" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/theme.configProvider.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/collegeInfo.chart.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages/pages.chart.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/sass/admin/_adDataBase.scss" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/components/contentTop/contentTop.directive.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/adDataBase/adDataBase.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/data/activity2-1.json" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages/pages.service.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/services/util.service.js" />
+        <option value="$PROJECT_DIR$/dataHub/bower.json" />
+        <option value="$PROJECT_DIR$/dataHub/.tmp/serve/main.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/main.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/admin.chart.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/collegeInfo.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStu.html" />
+        <option value="$PROJECT_DIR$/dataHub/src/sass/admin/_collegeInfo.scss" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStu.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStudent/countStudent.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStudent/countStudentCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStudent/countStuCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/pages/pages.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStudent/countStu.module.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/collegeInfoCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStuCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/admin/adDataBase/adDataBaseCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/app/theme/components/baSidebar/BaSidebarCtrl.js" />
+        <option value="$PROJECT_DIR$/dataHub/src/data/token.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/dataHub/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baSidebar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataHub" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adDataBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ive" />
+    <property name="nodejs_interpreter_path" value="E:/sofewareForH5/nodejs/node" />
+    <property name="SearchEverywhereHistoryKey" value="token.json&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/data/token.json&#10;token&#9;FILE&#9;file://D:/project/dataHub/dataHub/bower_components/moment/src/lib/parse/token.js&#10;collegeInfoCtrl&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/admin/collegeInfo/collegeInfoCtrl.js&#10;package.json&#9;FILE&#9;file://D:/project/dataHub/dataHub/package.json&#10;count&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countNote/countNote.html&#10;countNote.html&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countNote/countNote.html&#10;countNote&#9;null&#9;null&#10;college&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/sass/admin/_collegeInfo.scss&#10;compareInfo.html&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countHomework/compareInfo/compareInfo.html&#10;compareInfoCtrl&#9;null&#9;null&#10;countActivityInfo&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countActivity/countActivityInfo/countActivityInfo.html&#10;countActivityInfoCtrl&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countActivity/countActivityInfo/countActivityInfoCtrl.js&#10;adData&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/admin/adDataBase/adDataBaseCtrl.js&#10;admin&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/admin/admin.chart.js&#10;content&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/components/contentTop/contentTop.directive.js&#10;addata&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/admin/adDataBase/adDataBaseCtrl.js&#10;stuReport.html&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/stuControl/stuReport/stuReport.html&#10;stuReportCtr&#9;null&#9;null&#10;countGrade&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countGrade/countGradeCtrl.js&#10;countGrade.html&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countGrade/countGrade.html&#10;countGradeCtrl&#9;null&#9;null&#10;countHomeworkCtrl&#9;null&#9;null&#10;service&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/pages.service.js&#10;ad&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/sass/admin/_adDataBase.scss&#10;studentInfo&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/stuControl/studentInfo/studentInfoCtrl.js&#10;index&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/index.html&#10;preloader&#9;null&#9;null&#10;run.&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.run.js&#10;pages.servic&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/pages.service.js&#10;pages.ser&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/pages.service.js&#10;index.html&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/index.html&#10;const&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.constants.js&#10;pages&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/pages.service.js&#10;pages.service&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/pages.service.js&#10;cons&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.constants.js&#10;token.&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/data/token.json&#10;charts&#9;null&#9;null&#10;run&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.run.js&#10;run.js&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.run.js&#10;slide&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/components/chartSlide/chartSlide.html&#10;switcher-container&#9;null&#9;null&#10;ba-switcher&#9;null&#9;null&#10;studyBehavior&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/stuControl/studyBehavior/studyBehaviorCtrl.js&#10;in&#9;FILE&#9;file://D:/project/dataHub/dataHub/gulp/inject.js&#10;index.&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/index.html&#10;stuControl.js&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/stuControl/stuControlCtrl.js&#10;theme.run.js&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.run.js&#10;cour&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/pages/countCourse/countCourseCtrl.js&#10;serve&#9;FILE&#9;file://D:/project/dataHub/dataHub/gulp/server.js&#10;theme.run&#9;FILE&#9;file://D:/project/dataHub/dataHub/src/app/theme/theme.run.js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\dataHub\dataHub\src\assets\img" />
+      <recent name="D:\project\dataHub\dataHub\bower_components\echarts\dist" />
+      <recent name="D:\project\dataHub\dataHub\src\assets\img\mine" />
+      <recent name="D:\project\dataHub\dataHub\release" />
+      <recent name="D:\project\dataHub\dataHub\src\app\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\dataHub\dataHub\src\app\pages" />
+      <recent name="D:\project\dataHub\dataHub\src\sass\admin" />
+      <recent name="D:\project\dataHub\dataHub\src\sass\app" />
+      <recent name="D:\project\dataHub\dataHub\src\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f26f324b-0605-47f0-b8fa-a3de566e3750" name="Default" comment="" />
+      <created>1501653273055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501653273055</updated>
+      <workItem from="1501653282174" duration="2898000" />
+      <workItem from="1501722157944" duration="497000" />
+      <workItem from="1501740684925" duration="13748000" />
+      <workItem from="1501809197829" duration="25178000" />
+      <workItem from="1502067982352" duration="18367000" />
+      <workItem from="1502171890508" duration="14858000" />
+      <workItem from="1502240283912" duration="3431000" />
+      <workItem from="1502246700831" duration="19823000" />
+      <workItem from="1502326609790" duration="265000" />
+      <workItem from="1502327312188" duration="15000" />
+      <workItem from="1502334485472" duration="7925000" />
+      <workItem from="1502352695692" duration="2843000" />
+      <workItem from="1502355561187" duration="72000" />
+      <workItem from="1502434721597" duration="7238000" />
+      <workItem from="1502676790047" duration="776000" />
+      <workItem from="1502680119790" duration="2230000" />
+      <workItem from="1502692720811" duration="4560000" />
+      <workItem from="1502759126704" duration="1213000" />
+      <workItem from="1502760873878" duration="174000" />
+      <workItem from="1502783572830" duration="7212000" />
+      <workItem from="1502790814780" duration="594000" />
+      <workItem from="1502845258401" duration="5066000" />
+      <workItem from="1502861959772" duration="2762000" />
+      <workItem from="1502870981633" duration="1004000" />
+      <workItem from="1502874959334" duration="1901000" />
+      <workItem from="1502931770256" duration="12238000" />
+      <workItem from="1503048196531" duration="788000" />
+      <workItem from="1503277586156" duration="31000" />
+      <workItem from="1503283917227" duration="740000" />
+      <workItem from="1503391132963" duration="309000" />
+      <workItem from="1503395244558" duration="1880000" />
+      <workItem from="1503487215713" duration="1273000" />
+      <workItem from="1503540529481" duration="8922000" />
+      <workItem from="1503623893313" duration="9974000" />
+      <workItem from="1503891764346" duration="7110000" />
+      <workItem from="1503968370325" duration="107000" />
+      <workItem from="1504062198588" duration="2095000" />
+      <workItem from="1504083392502" duration="1283000" />
+      <workItem from="1504168074196" duration="529000" />
+      <workItem from="1504234682819" duration="1339000" />
+      <workItem from="1504237231032" duration="1287000" />
+      <workItem from="1504247122097" duration="1844000" />
+      <workItem from="1504251653450" duration="119000" />
+      <workItem from="1504253646938" duration="1993000" />
+      <workItem from="1504487231841" duration="3611000" />
+      <workItem from="1504680311805" duration="3340000" />
+      <workItem from="1504745700130" duration="2207000" />
+      <workItem from="1505094998177" duration="4405000" />
+      <workItem from="1505178127483" duration="3370000" />
+      <workItem from="1505195767544" duration="69000" />
+      <workItem from="1505200958616" duration="2432000" />
+      <workItem from="1505264634406" duration="3207000" />
+      <workItem from="1505283177895" duration="360000" />
+      <workItem from="1505283886085" duration="3104000" />
+      <workItem from="1505699577826" duration="1357000" />
+      <workItem from="1505706236228" duration="19000" />
+      <workItem from="1505803011878" duration="639000" />
+      <workItem from="1505888608625" duration="713000" />
+      <workItem from="1506309494116" duration="1398000" />
+      <workItem from="1506328864701" duration="4864000" />
+      <workItem from="1506387252210" duration="155000" />
+      <workItem from="1506477152788" duration="4072000" />
+      <workItem from="1506655913077" duration="26000" />
+      <workItem from="1506736527438" duration="12773000" />
+      <workItem from="1507603026286" duration="1155000" />
+      <workItem from="1508117654828" duration="21255000" />
+      <workItem from="1508202060947" duration="10679000" />
+      <workItem from="1508378159901" duration="4592000" />
+      <workItem from="1508398238478" duration="1993000" />
+      <workItem from="1508467343243" duration="17111000" />
+      <workItem from="1508721182181" duration="22552000" />
+      <workItem from="1508806386033" duration="22809000" />
+      <workItem from="1508892877335" duration="18081000" />
+      <workItem from="1508919454844" duration="3072000" />
+      <workItem from="1508979578571" duration="1705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="375636000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16596417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22860238" sideWeight="0.5021075" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18309858" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dataHub/src/data/activity1-2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-725">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/data/activity2-1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countActivity/countActivityInfo/countActivityInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countActivity/countActivityInfo/countActivityInfoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countActivity/activityCompareInfo/activityCompareInfoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/data/grade2-2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/data/home2-2-4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countHomework/compareInfo/compareInfoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countHomework/compareInfo/compareInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/dashboard/dashboardPieChart/dashboardPieChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countNote/countNote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/countNote/countNoteCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/mine/time.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/mine/callback.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/mine/percent.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/theme/services/util.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="152" column="17" lean-forward="true" selection-start-line="152" selection-start-column="17" selection-end-line="152" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/mine/login.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/pages.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="251" column="26" lean-forward="false" selection-start-line="251" selection-start-column="12" selection-end-line="251" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/.tmp/serve/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1450">
+          <caret line="29" column="77" lean-forward="true" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/bower_components/echarts/dist/echarts.js" />
+    <entry file="file://$PROJECT_DIR$/dataHub/bower_components/echarts/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/bower_components/echarts/dist/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="65" column="101" lean-forward="false" selection-start-line="65" selection-start-column="101" selection-end-line="65" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/sass/admin/_adDataBase.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/adDataBase/adDataBase.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/admin.chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="99" column="38" lean-forward="false" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/collegeInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/sass/admin/_collegeInfo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="123" column="26" lean-forward="false" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/college.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/.tmp/serve/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="149" column="31" lean-forward="false" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/collegeInfo/collegeInfoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="145" column="38" lean-forward="true" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/pages/pages.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/blur-bg-mobile.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/login.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="true" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/person.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/student.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/assets/img/teacher.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/theme/components/baSidebar/BaSidebarCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/theme/components/baSidebar/baSidebar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/adDataBase/adDataBase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/theme/components/baSidebar/ba-sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/adDataBase/adDataBaseCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="358" column="62" lean-forward="false" selection-start-line="358" selection-start-column="62" selection-end-line="358" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStu.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/bower_components/moment/src/lib/parse/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/app/admin/countStu/countStuCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataHub/src/data/token.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="1006" lean-forward="false" selection-start-line="1" selection-start-column="1006" selection-end-line="1" selection-end-column="1006" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

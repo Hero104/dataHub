@@ -1,0 +1,62 @@
+[
+  {
+    "avg_score": 96,
+    "course_id": 1735403,
+    "error_count": 48,
+    "homework_createtime": "2017-03-03 15:55:09.0",
+    "homework_id": 2320958,
+    "homework_name": "礼仪实时作业一",
+    "homework_total_score": 100,
+    "homework_total_time": 0,
+    "max_score": 96,
+    "min_score": 96,
+    "study_time": 221,
+    "user_id": 2087,
+    "visit_count": 1
+  },
+  {
+    "avg_score": 100,
+    "course_id": 1735403,
+    "error_count": 50,
+    "homework_createtime": "2017-03-03 15:55:09.0",
+    "homework_id": 2320961,
+    "homework_name": "礼仪实时作业三",
+    "homework_total_score": 100,
+    "homework_total_time": 0,
+    "max_score": 100,
+    "min_score": 100,
+    "study_time": 133,
+    "user_id": 2087,
+    "visit_count": 1
+  },
+  {
+    "avg_score": 98,
+    "course_id": 1735403,
+    "error_count": 49,
+    "homework_createtime": "2017-03-03 15:55:09.0",
+    "homework_id": 2320960,
+    "homework_name": "礼仪实时作业二",
+    "homework_total_score": 100,
+    "homework_total_time": 0,
+    "max_score": 98,
+    "min_score": 98,
+    "study_time": 133,
+    "user_id": 2087,
+    "visit_count": 1
+  },
+  {
+    "avg_score": 100,
+    "course_id": 1735403,
+    "error_count": 50,
+    "homework_createtime": "2017-03-03 15:55:09.0",
+    "homework_id": 2320959,
+    "homework_name": "礼仪实时作业四",
+    "homework_total_score": 100,
+    "homework_total_time": 0,
+    "max_score": 100,
+    "min_score": 100,
+    "study_time": 135,
+    "user_id": 2087,
+    "visit_count": 1
+  }
+]

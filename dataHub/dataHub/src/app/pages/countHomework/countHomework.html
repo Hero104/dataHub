@@ -1,0 +1,91 @@
+<div class="row pie-charts">
+    <div class="pie-chart-item-container" id="baseNum" ng-repeat="chart in homeworkCharts">
+        <div ba-panel>
+            <div class="pie-chart-item">
+                <div class="description">
+                    <div>{{ ::chart.description }}</div>
+                    <div class="description-stats">{{ ::chart.stats }}</div>
+                </div>
+                <i class="chart-icon i-{{ ::chart.icon }}" style="display:block;"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="作业统计" id="countTable">
+            <ul class="col-md-9 screen">
+                <li class="col-md-3 screen-slide">
+                    <div class="input-group">
+                        <input type="text" id="HomeworkName" class="form-control" value="" placeholder="查找作业..." ng-model="HomeworkName">
+                        <span class="input-group-btn">
+                            <button class="btn btn-info" ng-click="getCountHomework(status, courseName, HomeworkName)">搜索</button>
+                        </span>
+                    </div>
+                </li>
+                <li class="col-md-2 form-group screen-slide">
+                    <select class="form-control" ng-model="status" ng-change="getCountHomework(status, courseName, '', 1)">
+                        <option value="0">状态</option>
+                        <option value="1">未过期</option>
+                        <option value="2">已过期</option>
+                    </select>
+                </li>
+                <li class="col-md-2 form-group screen-slide" ng-show="courseDrop">
+                    <select class="form-control" ng-model="courseName" ng-change="getCountHomework(status, courseName, '', 1)">
+                        <option value="">课程</option>
+                        <option ng-repeat="item in courseDrop track by $index" value="{{ item.id }}">{{ item.coursename }}</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="text-center">ID</th>
+                        <th class="text-center">作业名称</th>
+                        <th class="text-center">所属课程</th>
+                        <th class="text-center">完成数/布置数</th>
+                        <th class="text-center">最高分</th>
+                        <th class="text-center">最低分</th>
+                        <th class="text-center">平均分</th>
+                        <th class="text-center">及格率</th>
+                        <th class="text-center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="courseName pointer" title="{{ item.name }}"><h5 class="course">{{ item.name }}</h5></td>
+                        <td class="courseName pointer" title="{{ item.course }}"><h5 class="course">{{ item.course }}</h5></td>
+                        <td class="text-center">{{ item.setNum }}</td>
+                        <td class="text-center">{{ item.gradeHeightest }}</td>
+                        <td class="text-center">{{ item.gradeLowest }}</td>
+                        <td class="text-center">{{ item.gradeAverage }}</td>
+                        <td class="text-center">{{ item.passRate }}</td>
+                        <td class="text-center">
+                            <button ui-sref="countHomeworkInfo({courseId:item.courseId,homeworkId:item.homeworkId})" class="status-button btn btn-info btn-xs">详情</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="8" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)">
+                            </paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>

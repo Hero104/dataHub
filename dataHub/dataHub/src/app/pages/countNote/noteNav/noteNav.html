@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="tab-mine">
+            <button ui-sref="countNote" class="btn btn-info back">返回</button>
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==1]" class="btn"
+                    ui-sref="byStudent({courseId:courseId})">按学生统计</button>
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==2]" class="btn ml30"
+                    ui-sref="byContent({courseId:courseId})">按内容统计</button>
+        </div>
+    </div>
+</div>

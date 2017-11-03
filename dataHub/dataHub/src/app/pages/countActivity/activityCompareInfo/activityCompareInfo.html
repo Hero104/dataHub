@@ -1,0 +1,60 @@
+<activity-nav nav="2"></activity-nav>
+
+<div class="row" id="gradeHomework">
+    <div class="col-md-12" ba-panel ba-panel-title="班级成绩对比" ba-panel-class="with-scroll ">
+        <div id="stacked-bar" style="height: 100%;height: 350px;"></div>
+        <div class="text-center none-data" hidden>暂时没有数据...</div>
+    </div>
+</div>
+
+<div class="row" id="avtivityPost">
+    <div class="col-md-12" ba-panel ba-panel-title="班级发帖统计" ba-panel-class="with-scroll ">
+        <div id="countPost" style="height: 100%;height: 350px;"></div>
+        <div class="text-center none-data" hidden>暂时没有数据...</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12" ba-panel ba-panel-title="班级统计" id="countTable">
+        <div class="horizontal-scroll">
+            <table class="table table-hover" st-table="countActivityTableData">
+                <thead>
+                <tr>
+                    <th class="text-center">ID</th>
+                    <th class="text-center">班级名称</th>
+                    <th class="text-center">班级人数</th>
+                    <th class="text-center">发帖数量</th>
+                    <th class="text-center">人均发帖数</th>
+                    <th class="text-center">平均分</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="item in tableData">
+                    <td class="text-center">{{ item.id }}</td>
+                    <td class="text-center">{{ item.className }}</td>
+                    <td class="text-center">{{ item.classPeopleNum }}</td>
+                    <td class="text-center">{{ item.postNum }}</td>
+                    <td class="text-center">{{ item.postNumAverage }}</td>
+                    <td class="text-center">{{ item.gradeAverage }}</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="8" class="text-center">
+                        <paging class="small pagination"
+                                page="page.currentPage"
+                                page-size="page.pageSize"
+                                total="page.total"
+                                scroll-top="false"
+                                hide-if-empty="true"
+                                show-prev-next="true"
+                                paging-action="changePage(page)">
+                        </paging>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="text-center none-data" hidden>暂时没有数据...</div>
+    </div>
+</div>

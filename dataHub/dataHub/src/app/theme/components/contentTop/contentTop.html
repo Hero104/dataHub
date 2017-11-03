@@ -1,0 +1,17 @@
+<div class="content-top clearfix" ng-show="userType==2">
+    <h1 class="al-title">{{ activePageTitle }}</h1>
+
+    <ul class="breadcrumb al-breadcrumb">
+        <li>
+            <a href="javascript:;" ng-click="goModule()">{{ module }}</a></li>
+        <li>{{ activePageTitle }}</li>
+    </ul>
+</div>
+
+<div class="content-top clearfix" ng-show="userType==1">
+    <h1 class="al-title">{{ collegeName }}</h1>
+
+    <ul class="breadcrumb al-breadcrumb">
+        <li class="pointer bigger" ui-sref="adDataBase">返回</li>
+    </ul>
+</div>

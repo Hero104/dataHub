@@ -1,0 +1,149 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "list": [
+      {
+        "user_id": 771,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": null,
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 2169,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "张晓培",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 66645,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "高职演示教师1",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 67680,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "许春朋",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73955,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王冰春",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73956,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王菡香",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73957,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王采紫",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73958,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王雪采",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73959,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王初婷",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73960,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王彩曼",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73961,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王曦明",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      },
+      {
+        "user_id": 73962,
+        "course_id": 427213,
+        "activity_id": 0,
+        "nickname": "王格瑶",
+        "join_count": null,
+        "max_score": 0,
+        "avg_score": 0,
+        "min_score": 0,
+        "is_join": 1
+      }
+    ],
+    "totalRecords": 93,
+    "pageNo": 1,
+    "pageSize": 12,
+    "totalPages": 8,
+    "topPage": 1,
+    "previousPage": 1,
+    "nextPage": 2,
+    "bottomPage": 8
+  },
+  "suc": true
+}

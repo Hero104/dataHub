@@ -1,0 +1,118 @@
+#gradeHomework {
+  position: relative;
+  .grade-sort {
+    list-style: none;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    .grade-slide {
+      float: left;
+      margin-left: 18px;
+      .icon {
+        display: inline-block;
+        width: 20px;
+        height: 10px;
+      }
+      .title {
+        line-height: 5px;
+      }
+    }
+  }
+}
+.grade-sort {
+  list-style: none;
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  .grade-slide {
+    float: left;
+    margin-left: 18px;
+    .icon {
+      display: inline-block;
+      width: 20px;
+      height: 10px;
+    }
+    .title {
+      line-height: 5px;
+    }
+  }
+}
+
+
+
+#homeworkAnalyze {
+  .left {
+    padding-left: 0;
+  }
+  .right {
+    padding-right: 0;
+  }
+  .grade-type {
+    padding: 0
+  }
+  .student-grade {
+    .zoomIn {
+      clear: both;
+      background: #f00;
+    }
+    clear: both;
+  }
+}
+
+#typeSort {
+  width: 100%;
+  height: 330px;
+  font-size: 11px;
+}
+
+#rageCompare {
+  position: relative;
+  .submitRage {
+    .panel-body {
+      height: 430px;
+      #passRateClassSubmit {
+        height: 50%;
+        padding: 6% 8%;
+        line-height: 56px;
+        .description {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .rageCompare-more {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+  }
+}
+
+.exam {
+  .exam-slide {
+    position: relative;
+    margin-bottom: 35px;
+    .ask {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    .answer-list {
+      line-height: 25px;
+    }
+    .answer {
+      margin-top: 10px;
+    }
+    .time {
+      color: #bbb;
+    }
+    .icon {
+      position: absolute;
+      right: 10%;
+      top: 10%;
+      img {
+        width: 80px;
+        height: 80px;
+        opacity: 0.6;
+      }
+    }
+  }
+}

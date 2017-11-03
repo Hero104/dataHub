@@ -1,0 +1,45 @@
+<div ba-panel class="col-md-4" id="datePicker">
+    <div ng-controller="datePickerCtrl">
+        <label class="col-xs-6 col-sm-4 input-title">开始时间:</label>
+        <p class="input-group">
+            <input type="text"
+                   readonly="true"
+                   style="color: #000"
+                   class="form-control"
+                   id="formDateStart"
+                   uib-datepicker-popup="yyyy-MM-dd"
+                   datepicker-options="options"
+                   ng-model="dateStart"
+                   is-open="openedBegin"
+                   ng-required="true"
+                   close-text="Close"
+                   alt-input-formats="altInputFormats"
+                   show-button-bar="false" />
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="openBegin()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </p>
+        <label class="col-xs-6 col-sm-4 input-title">结束时间:</label>
+        <p class="input-group">
+            <input type="text"
+                   readonly="true"
+                   style="color: #000"
+                   class="form-control"
+                   id="formDateEnd"
+                   uib-datepicker-popup="yyyy-MM-dd"
+                   datepicker-options="options"
+                   ng-model="dateEnd"
+                   is-open="openedOver"
+                   ng-required="true"
+                   close-text="Close"
+                   alt-input-formats="altInputFormats"
+                   show-button-bar="false" />
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="openOver()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </p>
+        <p class="col-md-12">
+            <button class="col-md-4 col-lg-offset-4 btn btn-info" ng-click="searchLineChartDate()">查询</button>
+        </p>
+    </div>
+</div>

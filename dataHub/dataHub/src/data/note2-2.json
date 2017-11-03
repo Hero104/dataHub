@@ -1,0 +1,47 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "list": [
+      {
+        "course_id": 1735271,
+        "user_id": 74239,
+        "user_name": "王妮韵",
+        "course_name": null,
+        "ask_count": 0,
+        "answer_count": 0,
+        "distinct_answer_count": 0,
+        "ask_status": 1
+      },
+      {
+        "course_id": 1735271,
+        "user_id": 74290,
+        "user_name": "王静洁",
+        "course_name": null,
+        "ask_count": 0,
+        "answer_count": 0,
+        "distinct_answer_count": 0,
+        "ask_status": 2
+      },
+      {
+        "course_id": 1735271,
+        "user_id": 74400,
+        "user_name": "王俊桂",
+        "course_name": null,
+        "ask_count": 0,
+        "answer_count": 0,
+        "distinct_answer_count": 0,
+        "ask_status": 1
+      }
+    ],
+    "totalRecords": 3,
+    "pageNo": 1,
+    "pageSize": 12,
+    "totalPages": 1,
+    "topPage": 1,
+    "previousPage": 1,
+    "nextPage": 1,
+    "bottomPage": 1
+  },
+  "suc": true
+}

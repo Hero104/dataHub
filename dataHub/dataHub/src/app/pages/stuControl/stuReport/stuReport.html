@@ -1,0 +1,214 @@
+<nav-slide nav="1"></nav-slide>
+
+<!--完成率-->
+<div class="row">
+    <div class="col-md-12" style="margin-top: 30px;" id="courseFirst">
+        <h2 class="text-center">—— {{ ::courseName }} ——</h2>
+        <div class="row" id="courseProgress">
+            <div class="col-md-12">
+                <div id="amchartPercent" style="width: 100%;height: 200px;"></div>
+            </div>
+            <div class="content">
+                <p class="num">{{ progress + '%' }}</p>
+                <p class="name">课程进度</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--基础数据-->
+<div class="row">
+    <div class="row pie-charts" id="courseBaseData">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <h2 class="caption">基础数据</h2>
+            <div class="pie-chart-item-container" ng-repeat="chart in baseNum">
+                <div ba-panel>
+                    <div class="pie-chart-item">
+                        <div class="description">
+                            <div>{{ ::chart.description }}</div>
+                            <div class="description-stats">{{ ::chart.stats }}</div>
+                        </div>
+                        <i class="chart-icon i-{{ ::chart.icon }}" style="display: block"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--学习时长分布-->
+<div class="row">
+    <div class="col-md-12 study-time">
+        <h2 class="caption">学习时长分布</h2>
+        <div ba-panel ba-panel-class="with-scroll">
+            <div class="chartjs-canvas-holder-first-row">
+                <div class="col-md-6">
+                    <canvas id="pie" class="chart chart-pie" chart-options="options" chart-data="time" chart-labels="labels"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <div ba-panel ba-panel-class="with-scroll table-panel">
+                        <div class="horizontal-scroll">
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th class="text-center">资源名称</th>
+                                    <th class="text-center">学习时长（分）</th>
+                                    <th class="text-center">占比</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr ng-repeat="item in metricsTableData">
+                                    <td>{{ item.id }}</td>
+                                    <td class="text-center">{{ item.name }}</td>
+                                    <td class="text-center">{{ item.time }}</td>
+                                    <td class="text-center">{{ item.percent }}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+
+<!--作业成绩分析-->
+<div class="row">
+    <div class="col-lg-12 col-sm-12 col-xs-12">
+        <h2 class="caption">作业成绩分析</h2>
+        <div class="home-grade" ba-panel ba-panel-class="with-scroll">
+            <div id="zoomAxisChart" style="width: 100%;height: 350px;"></div>
+            <div class="horizontal-scroll">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <td class="text-center">序号</td>
+                        <td class="text-center">作业名称</td>
+                        <td class="text-center">作答时间(分)</td>
+                        <td class="text-center">最高分</td>
+                        <td class="text-center">平均分</td>
+                        <td class="text-center">错题数</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in homeworkTableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.name }}</td>
+                        <td class="text-center">{{ item.time }}</td>
+                        <td class="text-center">{{ item.grade }}</td>
+                        <td class="text-center">{{ item.avgGrade }}</td>
+                        <td class="text-center">{{ item.mistakes }}</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="text-center">
+                    <paging class="small pagination"
+                            page="pageScore.currentPage"
+                            page-size="pageScore.pageSize"
+                            total="pageScore.total"
+                            scroll-top="false"
+                            hide-if-empty="true"
+                            show-prev-next="true"
+                            paging-action="changePageScore(page)">
+                    </paging>
+                </div>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+
+<!--活动活跃度-->
+<div class="row">
+    <div class="col-md-12" id="progressLiveness">
+        <h2 class="caption">活动活跃度</h2>
+        <div ba-panel ba-panel-class="with-scroll">
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <td class="text-center">序号</td>
+                        <td class="text-center">活动名称</td>
+                        <td class="text-center">发帖数</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in progressLiveness">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.course }}</td>
+                        <td class="text-center">{{ item.liveness }}</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-center"></td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+            <!--<div ng-repeat="item in progressLiveness">-->
+                <!--<div class="col-md-2">{{ item.course }}</div>-->
+                <!--<div class="progress xs-12 .col-md-8">-->
+                    <!--<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: {{ item.liveness }}">-->
+                        <!--<span>{{ item.liveness}}</span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<!--资源统计-->
+<div class="row">
+    <div class="col-md-12" id="countTable">
+        <h2 class="caption">资源统计</h2>
+        <div ba-panel>
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <td class="text-center">序号</td>
+                        <td class="text-center">资源名称</td>
+                        <td class="text-center">资源进度</td>
+                        <td class="text-center">学习时长(分)</td>
+                        <td class="text-center">笔记数</td>
+                        <td class="text-center">答疑数</td>
+                        <td class="text-center">访问量</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in resourceTableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.name }}</td>
+                        <td class="text-center">{{ item.progress }}</td>
+                        <td class="text-center">{{ item.studyTime }}</td>
+                        <td class="text-center">{{ item.noteNum }}</td>
+                        <td class="text-center">{{ item.questionNum }}</td>
+                        <td class="text-center">{{ item.loginNum }}</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="7" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)">
+                            </paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>

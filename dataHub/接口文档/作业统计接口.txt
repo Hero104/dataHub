@@ -1,0 +1,53 @@
+﻿###作业统计
+
+##### 查询作业统计首页--作业详情--学生统计
+
+请求路径：http://123.56.255.86:8080/statisticsapi/api/homework/getHomeworkStudentStatis?access_token=caf7d12f0d14056cce853f5637ea00b2&homeworkId=2320355&courseId=1735295&answerStatus=2
+
+** GET api/homework/getHomeworkStudentStatis
+
+
+参数：
+*access_token：用户Token[是否必要true]
+
+*courseId:课程id  数据类型：String[是否必要true]
+
+*homeworkId:作业id  数据类型：Long[是否必要true]
+
+*answerStatus:作业id  数据类型：Long[是否必要true](0：全部 1表未作答 2表已作答)
+
+*请求体*
+
+	{
+		access_token=caf7d12f0d14056cce853f5637ea00b2  //token
+		homeworkId=12265          //作业id
+		courseId=12359         //课程id
+		answerStatus=2            //作业作答状态
+        
+        
+		
+
+*回应体*
+         {
+	     visit_count: 1,               //作答次数
+	     homeworkId: 12265,            //作业名称
+         nickname: "林嘉林",           //姓名
+         min_score: 100,               //最低分
+         courseId: 12359,             //课程id
+         max_score: 100,               //最高分
+         user_id: 304294,              //用户id
+         answerStatus: 2,              //作答状态 (1表未作答 2表已作答)
+         avg_score: 100                //平均分
+         },
+	     {
+	     visit_count: 1,              //作答次数
+         homeworkId: 12265,           //作业名称
+	     nickname: "李晗",            //姓名
+	     min_score: 100,              //最低分
+	     courseIds: 12359,            //课程id
+	     max_score: 100,              //最高分
+	     user_id: 304295,             //用户id
+	     answerStatus: 2,             //作答状态 (1表未作答 2表已作答)
+	     avg_score: 100               //平均分
+	     }
+	

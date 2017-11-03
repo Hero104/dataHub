@@ -1,0 +1,128 @@
+<activity-nav nav="1"></activity-nav>
+
+<div class="row">
+    <div class="col-md-12 postsort-wrap" ba-panel ba-panel-title="发帖分布" id="postsort">
+        <div class="postsort-content">
+            <div class="col-md-6">
+                <div id="sortPost" style="width: 100%;height: 350px;"></div>
+            </div>
+            <div class="col-md-6" ba-panel>
+                <div class="horizontal-scroll">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <td class="text-center">序号</td>
+                            <td class="text-center">发帖范围</td>
+                            <td class="text-center">人数</td>
+                            <td class="text-center">占比</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="item in typeSortList">
+                            <td class="text-center">{{ $index + 1 }}</td>
+                            <td class="text-center">{{ item.name }}</td>
+                            <td class="text-center">{{ item.num }}</td>
+                            <td class="text-center">{{ item.percent }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="text-center none-data" hidden>暂时没有数据...</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 grade-type" ba-panel ba-panel-title="分数分布">
+        <div class="grade-content">
+            <div class="col-md-6">
+                <div id="sortScore" style="width: 100%; height: 350px;"></div>
+            </div>
+            <div class="col-md-6">
+                <div ba-panel>
+                    <div class="horizontal-scroll">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th class="text-center">序号</th>
+                                <th class="text-center">分数范围</th>
+                                <th class="text-center">人数</th>
+                                <th class="text-center">占比</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="item in gradeSortTableData">
+                                <td class="text-center">{{ $index + 1 }}</td>
+                                <td class="text-center">{{ item.name }}</td>
+                                <td class="text-center">{{ item.value }}</td>
+                                <td class="text-center">{{ item.percent }}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center none-data" hidden>暂时没有数据...</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 student-grade log-show">
+        <div ba-panel ba-panel-title="学生统计" id="countTable">
+            <ul class="log-nav" style="right: 80px;">
+                <li class="log-slide" ng-class="{true:'active',false:''}[logNav==$index]" ng-click="filtrate($index)" ng-repeat="item in dateList">
+                    <a href="javascript:;">{{ item }}</a>
+                </li>
+            </ul>
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="text-center">ID</th>
+                        <th class="text-center">姓名</th>
+                        <th class="text-center">发帖数量</th>
+                        <!--<th class="text-center">班级</th>-->
+                        <th class="text-center">得分</th>
+                        <th class="text-center">状态</th>
+                        <!--<th class="text-center">操作</th>-->
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="text-center">{{ item.name }}</td>
+                        <td class="text-center">{{ item.postNum }}</td>
+                        <!--<td class="text-center">{{ item.class }}</td>-->
+                        <td class="text-center">{{ item.grade }}</td>
+                        <td class="text-center">{{ item.status }}</td>
+                        <!--<td class="text-center">-->
+                            <!--<button ng-show="item.status=='已参加'" class="btn btn-info status-button btn-xs"-->
+                                    <!--ui-sref="postInfo({activityId:activityId,courseId:courseId,userId:item.userId})">查看帖子</button>-->
+                            <!--<button ng-show="item.status=='未参加'" class="btn btn-default status-button btn-xs">查看帖子</button>-->
+                        <!--</td>-->
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="7" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)">
+                            </paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+

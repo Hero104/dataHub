@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "score_level_4": 8,
+      "score_level_5": 4,
+      "score_level_2": 3,
+      "score_level_3": 8,
+      "score_level_1": 1
+    }
+  ],
+  "suc": true
+}

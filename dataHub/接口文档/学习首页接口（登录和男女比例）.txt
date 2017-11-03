@@ -1,0 +1,58 @@
+1、学生管理-学生详情-登陆行为
+http://123.56.255.86:8080/statisticsapi/api/teacharStatistics/selectStudentGenderRatio?access_token=%2277%22&userId=3503
+
+入参：
+"access_token" :"用户Token"
+"userId":"用户ID"
+
+返回json：
+
+{
+    "code":0,
+    "errcode":0,
+    "data":[
+        {
+            "personNum":480,    //人数
+            "LearnerGender":0   //性别 0 女 1 男
+        },
+        {
+            "personNum":512,   //人数
+            "LearnerGender":1  //性别 0 女 1 男
+        } 
+    ],
+    "suc":true
+}
+
+
+
+
+
+
+
+
+
+
+2、学生管理-学生详情-登陆行为
+http://123.56.255.86:8080/studyapi/api/behavior/getActRecHisList?access_token=%2277%22&aType=7&userId=73955&currPage=1&pageSize=1
+
+入参：
+"access_token" :"用户Token"
+"aType":"查询的类型，默认传7"
+"userId":"用户ID"
+"currPage":"当前页，默认1"
+"pageSize":desc = "显示条数，默认10"
+
+返回json：
+
+{
+    "code":0,
+    "errcode":0,
+    "data":[
+        {
+            "id":3,
+            "logDate":1489034934000,                           //登录时间
+            "logAddr":"北京市西城区德胜门外大街甲10号"         //登录地点
+        }
+    ],
+    "suc":true
+}

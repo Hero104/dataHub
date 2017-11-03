@@ -1,0 +1,147 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "course_id": 1735271,
+      "course_name": "产品设计基础",
+      "user_count": 3,
+      "ask_user_count": null,
+      "ask_count": 0,
+      "answer_count": 0,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 1735353,
+      "course_name": "商业银行柜台业务",
+      "user_count": 109,
+      "ask_user_count": null,
+      "ask_count": 0,
+      "answer_count": 0,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 1735388,
+      "course_name": "有效提升学习力",
+      "user_count": 1,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 1,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 436599,
+      "course_name": "机械制造基础",
+      "user_count": 1,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 2,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 1735373,
+      "course_name": "汽车底盘认知",
+      "user_count": 40,
+      "ask_user_count": null,
+      "ask_count": 13,
+      "answer_count": 21,
+      "distinct_answer_count": 25,
+      "answer_rate": 21
+    },
+    {
+      "course_id": 427213,
+      "course_name": "程序与算法",
+      "user_count": 92,
+      "ask_user_count": null,
+      "ask_count": 2,
+      "answer_count": 8,
+      "distinct_answer_count": 5,
+      "answer_rate": 5
+    },
+    {
+      "course_id": 1735383,
+      "course_name": "笔记本电脑组装与维护",
+      "user_count": 37,
+      "ask_user_count": null,
+      "ask_count": 6,
+      "answer_count": 8,
+      "distinct_answer_count": 8,
+      "answer_rate": 8
+    },
+    {
+      "course_id": 1735400,
+      "course_name": "经济学基础",
+      "user_count": 802,
+      "ask_user_count": null,
+      "ask_count": 28,
+      "answer_count": 41,
+      "distinct_answer_count": 4,
+      "answer_rate": 4
+    },
+    {
+      "course_id": 1735389,
+      "course_name": "统计学原理",
+      "user_count": 513,
+      "ask_user_count": null,
+      "ask_count": 8,
+      "answer_count": 11,
+      "distinct_answer_count": 18,
+      "answer_rate": 15
+    },
+    {
+      "course_id": 429752,
+      "course_name": "计算机基础应用",
+      "user_count": 4002,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 1,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 429752,
+      "course_name": "计算机基础应用",
+      "user_count": 4002,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 1,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 429752,
+      "course_name": "计算机基础应用",
+      "user_count": 4002,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 1,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 429752,
+      "course_name": "计算机基础应用",
+      "user_count": 4002,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 1,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    },
+    {
+      "course_id": 429752,
+      "course_name": "计算机基础应用",
+      "user_count": 4002,
+      "ask_user_count": null,
+      "ask_count": 1,
+      "answer_count": 1,
+      "distinct_answer_count": 0,
+      "answer_rate": 0
+    }
+  ],
+  "suc": true
+}

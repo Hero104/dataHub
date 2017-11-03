@@ -1,0 +1,22 @@
+#numDrag {
+  height: 300px;
+  visibility: hidden;
+  .popular-app-img {
+    position: relative;
+    top: 30px;
+    .num-drag {
+      position: absolute;
+      background: #fff;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 70px;
+      font-size: 25px;
+      color: #305A63;
+    }
+  }
+  .view-btn {
+    margin-top: 80px;
+  }
+}

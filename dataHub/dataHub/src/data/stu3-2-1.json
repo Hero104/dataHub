@@ -1,0 +1,118 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "rows": [
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-02-27 17:41:53",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-02-27 19:15:26",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-01 15:12:03",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-01 18:18:12",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-02 17:10:47",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-03 15:32:32",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-03 19:25:26",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-03 19:40:41",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-08 15:48:13",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-10 15:45:04",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-16 11:44:22",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-16 11:47:18",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-16 15:40:20",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-16 16:17:32",
+        "loginAddress": "北京市"
+      },
+      {
+        "userId": 73955,
+        "name": null,
+        "loginNumber": null,
+        "loginTime": "2017-03-16 17:51:00",
+        "loginAddress": "北京市"
+      }
+    ],
+    "pageNo": 1,
+    "pageSize": 15,
+    "totalRecord": 607,
+    "totalPage": 41
+  },
+  "suc": true
+}

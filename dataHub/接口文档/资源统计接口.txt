@@ -1,0 +1,128 @@
+接口说明:获取资源学习时长(视频、文档) 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getStudyTime
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(1:视频 2：文档) 数据类型:Long [是否必要:true]
+
+	{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": {
+	        "maxTotalStudyTime": 0,      // 最长学习时长
+	        "minTotalStudyTime": 0,      // 最短学习时长
+	        "avgTotalStudyTime": 0       // 平均学习时长
+	    },
+	    "suc": true
+	}
+
+
+
+
+接口说明:获取资源学习次数(富文本和超链接) 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/getStudyNumber
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(5:富文本 6：超链接) 数据类型:Long [是否必要:true] 
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": {
+        "maxTotalStudyCount": 103,          // 最多学习次数  
+        "minTotalStudyCount": 1,            // 最少学习次数  
+        "avgTotalStudyCount": 4.2242        // 平均学习次数
+    },
+    "suc": true
+}	
+
+
+
+接口说明:学习明细 富文本和超链接 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/listStudentStatisticsRH
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(5:富文本 6：超链接) 数据类型:Long [是否必要:true]
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "userId": 776,                                        // 学生id         
+            "courseId": 2878,                                     // 课程id       
+            "resourceId": 230,                                   // 资源id     
+            "resourceType": 1,                                    // 资源类型   
+            "resourceName": "项目一单元1人力资源管理基础知识",    // 资源名称 
+            "sequenceId": 1,                                     // 排序id     
+            "studyTime": 1800,                                   // 学习时长      
+            "studyCount": 1,                                     // 学习次数     
+            "progress": 3,                                        // 学习进度       
+            "nickname": "郝文晓"                                  // 学生姓名     
+        },
+        {
+            "userId": 2977,                                            // 学生id    
+            "courseId": 2878,                                          // 课程id    
+            "resourceId": 230,                                        // 资源id     
+            "resourceType": 1,                                         // 资源类型    
+            "resourceName": "项目一单元1人力资源管理基础知识",          // 资源名称                
+            "sequenceId": 1,                                          // 排序id     
+            "studyTime": 1800,                                        // 学习时长     
+            "studyCount": 1,                                          // 学习次数     
+            "progress": 3,                                             // 学习进度    
+            "nickname": "常妞妞"                                    // 学生姓名       
+        }
+    ],
+    "suc": true
+}
+
+ 
+
+
+
+接口说明:学习明细 视频和文档 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/resources/listStudentStatisticsVD
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+resourceId:资源Id 数据类型:Long [是否必要:true]
+resourceType:资源类型(1:视频 2：文档) 数据类型:Long [是否必要:true]
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "userId": 818,                           // 学生id    
+            "courseId": 1735384,                     // 课程id    
+            "resourceId": 5352,                     // 资源id     
+            "resourceType": 5,                       // 资源类型    
+            "resourceName": "何为税？",                  // 资源名称      
+            "sequenceId": 1488198220373,            // 排序id     
+            "studyTime": null,                      // 学习时长     
+            "studyCount": 2,                        // 学习次数     
+            "progress": 100,                         // 学习进度    
+            "nickname": "王瑞玲"                  // 学生姓名       
+        },
+        {
+            "userId": 2574,                                    // 学生id   
+            "courseId": 1735384,                               // 课程id   
+            "resourceId": 5352,                               // 资源id    
+            "resourceType": 5,                                 // 资源类型   
+            "resourceName": "何为税？",                        // 资源名称   
+            "sequenceId": 1488198220373,                      // 排序id    
+            "studyTime": null,                                // 学习时长    
+            "studyCount": 1,                                  // 学习次数    
+            "progress": 100,                                   // 学习进度   
+            "nickname": "张秋杰"                         // 学生姓名         
+        }
+    ],
+    "suc": true
+}

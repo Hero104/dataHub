@@ -1,0 +1,38 @@
+#avtivityPost {
+  .postHint {
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    .color {
+      display: inline-block;
+      width: 20px;
+      height: 10px;
+      margin-right: 5px;
+    }
+  }
+}
+
+#countTable {
+  .courseName {
+    width: 300px;
+    .course {
+      width: 300px;
+      padding-top: 10px;
+      white-space: pre;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.screen {
+  list-style: none;
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  .screen-slide {
+    float: right;
+  }
+}
+
+

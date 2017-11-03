@@ -1,0 +1,13 @@
+<div class="row pie-charts">
+    <div class="pie-chart-item-container" id="baseNum" ng-repeat="chart in baseCharts">
+        <div ba-panel>
+            <div class="pie-chart-item">
+                <div class="description">
+                    <div>{{ ::chart.description }}</div>
+                    <div class="description-stats">{{ ::chart.stats }}</div>
+                </div>
+                <i class="chart-icon i-{{ ::chart.icon }}" style="display: block"></i>
+            </div>
+        </div>
+    </div>
+</div>

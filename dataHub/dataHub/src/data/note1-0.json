@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "ask_user_count": 60,
+    "ask_count": 93,
+    "answer_count": 60,
+    "distinct_answer_count": null,
+    "answer_rate": 53
+  },
+  "suc": true
+}

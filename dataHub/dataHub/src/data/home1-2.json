@@ -1,0 +1,161 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "list": [
+      {
+        "userCount": 91,
+        "avgtScore": 0,
+        "homeworkId": 2320192,
+        "lowestScore": 0,
+        "homeworkName": "第2章  习题",
+        "courseId": 1735295,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "PHP高级程序设计",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 91,
+        "avgtScore": 0,
+        "homeworkId": 2320356,
+        "lowestScore": 0,
+        "homeworkName": "第3章  习题",
+        "courseId": 1735295,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "PHP高级程序设计",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 1,
+        "avgtScore": 0,
+        "homeworkId": 2320951,
+        "lowestScore": 0,
+        "homeworkName": "学习任务：中西方文化差异对比",
+        "courseId": 1735387,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "交际与礼仪",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 1,
+        "avgtScore": 0,
+        "homeworkId": 2320952,
+        "lowestScore": 0,
+        "homeworkName": "学习任务：青春礼仪风采大赛",
+        "courseId": 1735387,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "交际与礼仪",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 4,
+        "avgtScore": 0,
+        "homeworkId": 2321002,
+        "lowestScore": 0,
+        "homeworkName": "0307",
+        "courseId": 1735396,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 3,
+        "avgtScore": 0,
+        "homeworkId": 2320415,
+        "lowestScore": 0,
+        "homeworkName": "填空题",
+        "courseId": 1735271,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 4,
+        "avgtScore": 0,
+        "homeworkId": 2320892,
+        "lowestScore": 0,
+        "homeworkName": "填空题",
+        "courseId": 1735396,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 3,
+        "avgtScore": 1,
+        "homeworkId": 2320338,
+        "lowestScore": 0,
+        "homeworkName": "测试手动组卷驳回",
+        "courseId": 1735271,
+        "passRate": 0,
+        "highestScore": 2,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 2
+      },
+      {
+        "userCount": 3,
+        "avgtScore": 3,
+        "homeworkId": 2320337,
+        "lowestScore": 0,
+        "homeworkName": "测试离线作业驳回",
+        "courseId": 1735271,
+        "passRate": 33,
+        "highestScore": 10,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 3
+      },
+      {
+        "userCount": 3,
+        "avgtScore": 0,
+        "homeworkId": 2320495,
+        "lowestScore": 0,
+        "homeworkName": "测试自动组卷编辑",
+        "courseId": 1735271,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 3,
+        "avgtScore": 0,
+        "homeworkId": 2320620,
+        "lowestScore": 0,
+        "homeworkName": "离线作业",
+        "courseId": 1735271,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 1
+      },
+      {
+        "userCount": 3,
+        "avgtScore": 0,
+        "homeworkId": 2320620,
+        "lowestScore": 0,
+        "homeworkName": "离线作业",
+        "courseId": 1735271,
+        "passRate": 0,
+        "highestScore": 0,
+        "courseName": "产品设计基础",
+        "finishedUserCount": 1
+      }
+    ],
+    "totalRecords": 129,
+    "pageNo": 1,
+    "pageSize": 12,
+    "totalPages": 11,
+    "topPage": 1,
+    "previousPage": 1,
+    "nextPage": 2,
+    "bottomPage": 11
+  },
+  "suc": true
+}

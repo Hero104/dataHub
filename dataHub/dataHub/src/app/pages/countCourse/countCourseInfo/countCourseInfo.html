@@ -1,0 +1,87 @@
+<div class="row pie-charts">
+    <div class="pie-chart-item-container" id="baseNum" ng-repeat="chart in baseCharts">
+        <div ba-panel>
+            <div class="pie-chart-item">
+                <div class="description">
+                    <div>{{ ::chart.description }}</div>
+                    <div class="description-stats">{{ ::chart.stats }}</div>
+                </div>
+                <i class="chart-icon i-{{ ::chart.icon }}" style="display: block"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div ba-panel ba-panel-title="知识图谱" class="knowledge-echart">
+            <div id="knowledgeEchart" style="width: 100%; height: 800px;"></div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 log-show">
+        <div ba-panel ba-panel-title="." id="countTable">
+            <ul class="log-nav" style="left: -40px;">
+                <li class="log-slide" ng-class="{true:'active',false:''}[logNav==$index]" ng-click="filtrate($index)" ng-repeat="item in dateList">
+                    <a href="javascript:;">{{ item }}</a>
+                </li>
+            </ul>
+            <div class="horizontal-scroll">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="text-center">序号</th>
+                        <th class="text-center">{{ logNav==0 ? '资源名称': '章节名称' }}</th>
+                        <th class="text-center">学习时长</th>
+                        <th class="text-center">完成数/学习数</th>
+                        <th class="text-center">{{ logNav==0 ? '学习次数': '资源数' }}</th>
+                        <th class="text-center">笔记数量</th>
+                        <th class="text-center">答疑数量</th>
+                        <th class="text-center">人均学习时长</th>
+                        <th class="text-center">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in tableData">
+                        <td class="text-center">{{ item.id }}</td>
+                        <td class="courseName pointer" title="{{ item.name }}"><h5 class="course">{{ item.name }}</h5></td>
+                        <td class="text-center">{{ item.studyTime }}</td>
+                        <td class="text-center">{{ item.studyCount }}</td>
+                        <td class="text-center">{{ item.studyNum }}</td>
+                        <td class="text-center">{{ item.noteNum }}</td>
+                        <td class="text-center">{{ item.askNum }}</td>
+                        <td class="text-center">{{ item.averageStudyTime }}</td>
+                        <td class="text-center">
+                            <button ng-hide="item.resType==3||item.resType==4" class="btn btn-info btn-xs"
+                                    ui-sref="detailLean({courseId:courseId, resType:item.resType, resourceId:item.resourceId})">学习明细</button>
+                            <button ng-show="item.resType==3" class="btn btn-info btn-xs"
+                                    ui-sref="countHomeworkInfo({courseId:courseId, resType:item.resType, homeworkId:item.resourceId, resource:1})">学习明细</button>
+                            <button ng-show="item.resType==4" class="btn btn-info btn-xs"
+                                    ui-sref="countActivityInfo({courseId:courseId, resType:item.resType, activityId:item.resourceId, resource:1})">学习明细</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="9" class="text-center">
+                            <paging class="small pagination"
+                                    page="page.currentPage"
+                                    page-size="page.pageSize"
+                                    total="page.total"
+                                    scroll-top="false"
+                                    hide-if-empty="true"
+                                    show-prev-next="true"
+                                    paging-action="changePage(page)">
+                            </paging>
+                        </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="text-center none-data" hidden>暂时没有数据...</div>
+        </div>
+    </div>
+</div>

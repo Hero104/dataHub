@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "course_Ids": null,
+    "total_user_join_count": 3187,
+    "total_join_count": 3774,
+    "total_user_count": 10861,
+    "total_activity_count": 26,
+    "total_activity_finished_count": 1
+  },
+  "suc": true
+}
+

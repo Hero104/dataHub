@@ -1,0 +1,82 @@
+<nav-slide nav="3"></nav-slide>
+<!--学习行为-->
+<div class="row" id="behaviorInfo" hidden>
+    <div ba-panel ba-panel-title="李子木-学习行为" ba-panel-class="with-scroll ">
+        <div class="col-md-6">
+            <div id="stacked-bar" style="width: 100%;height: 350px;"></div>
+        </div>
+        <div class="col-md-6">
+            <div ba-panel ba-panel-class="with-scroll table-panel">
+                <div class="horizontal-scroll">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th class="text-center">名称</th>
+                            <th class="text-center">占比</th>
+                            <th class="text-center">学习时长(分)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="item in studyStyleTableData">
+                            <td class="text-center">{{ item.id }}</td>
+                            <td class="text-center">{{ item.name }}</td>
+                            <td class="text-center">{{ item.percent }}</td>
+                            <td class="text-center">{{ item.studyTime }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--学习内容分布-->
+<div class="row" hidden>
+    <div class="col-md-12 col-sm-12" ba-panel ba-panel-title="学习内容分布" ba-panel-class="medium-panel traffic-panel">
+        <div class="channels-block" ng-class="{'transparent': transparent}">
+            <div class="chart-bg"></div>
+            <div class="traffic-chart" id="trafficChart">
+                <div class="canvas-holder">
+                    <canvas id="chart-area" width="280" height="280"></canvas>
+                    <div class="traffic-text">
+                        <span>学习时长分布</span>
+                    </div>
+                </div>
+            </div>
+            <div class="channels-info">
+                <div>
+                    <div class="channels-info-item" ng-repeat="label in doughnutData.labels"
+                         ng-init="i = $index; data = doughnutData.datasets[0]">
+                        <div class="legend-color" style="background-color: {{::data.backgroundColor[i]}}"></div>
+                        <p>{{::label}}<span class="channel-number">+{{data.percentage[i]}}%</span></p>
+                        <div class="progress progress-sm channel-progress">
+                            <div class="progress-bar " role="progressbar"
+                                 aria-valuenow="{{data.percentage[i]}}" aria-valuemin="0" aria-valuemax="100"
+                                 style="width: {{item.percentage}}%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--时间轴-遍历-->
+<div ba-panel id="timeLine">
+    <section id="cd-timeline" class="cd-container cssanimations" ng-controller="studyBehaviorCtrl" style="padding-bottom: 50px">
+        <!--<div class="cd-timeline-block" ng-repeat="item in timeLineData" style="margin: 10px 0;" ng-if="content[$index]">-->
+        <div class="cd-timeline-block" ng-repeat="item in timeLineData" ng-if="content[$index]">
+            <div class="cd-timeline-img">
+                <div class="kameleon-icon with-round-bg" ng-class="colorBgArr[$index%3]">
+                    <img ng-src="{{::( 'time' | kameleonImg )}}">
+                </div>
+            </div>
+            <div class="cd-timeline-content" ng-class="colorBgArr[$index%3]" class="itemContent" style="padding-left: 40px;">
+                <h5>{{ item.time }}</h5>
+                <p>{{ content[$index] }}</p>
+            </div>
+        </div>
+    </section>
+    <div class="text-center none-data" hidden>暂时没有数据...</div>
+</div>

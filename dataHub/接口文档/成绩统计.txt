@@ -1,0 +1,164 @@
+1、数据统计  - 成绩统计 首页- 平均分分数段内课程数
+123.56.255.86:8080/statisticsapi/api/teacharStatistics/queryGradeTotalSum/?access_token=3&teacherId=66645
+
+入参：
+"access_token" :"用户Token"
+"teacherId":"老师ID"          测试传入，生产环境从token取值
+
+返回json：
+
+{
+    "code":0,
+    "errcode":0,
+    "data":[
+        {
+            "coursesNum":15,  课程数
+            "Scroe":1                    分数段标识 80分以上：1
+        },
+         {
+            "coursesNum":15,  课程数
+            "Scroe":2                    分数段标识 60-80分： 2
+	        },
+         {
+            "coursesNum":15,  课程数
+            "Scroe":3                    分数段标识  60分以下: 3
+        }
+      
+    ],
+    "suc":true
+}
+
+
+
+
+
+
+
+
+
+
+2、数据统计  - 成绩统计 首页- 成绩统计
+123.56.255.86:8080/statisticsapi/api/teacharStatistics/queryGradeTotalList/?access_token=3&expireFlag=1&teacherId=66645&page=1&max=2
+
+入参：
+"access_token" :"用户Token"
+"expireFlag":"全部：0，已过期：1，未过期：2  "
+"teacherId":"老师ID"          测试传入，生产环境从token取值
+"page":"当前页，默认1"
+"max":desc = "显示条数，默认10"
+
+返回json：
+
+
+{
+    "code":0,
+    "errcode":0,
+    "data":{
+        "rows":[
+            {
+                "minScore":1.08,              最低分
+                "avgScore":1.08,              平均分
+                "maxScore":1.08,              最高分
+                "CourseName":"毛泽东概论",    课程名称
+                "coursesNum":1,               总人数
+                "BatchCoursesId":436702       课程id
+            },
+            {
+                "minScore":6,
+                "avgScore":6,
+                "maxScore":6,
+                "CourseName":"高等数学（上）",
+                "coursesNum":1,
+                "BatchCoursesId":498751
+            }
+        ],
+        "pageNo":1,
+        "pageSize":2,
+        "totalRecord":3,
+        "totalPage":2
+    },
+    "suc":true
+}
+
+
+
+3、数据统计  - 成绩统计 - 查看详情 - 成绩分布
+123.56.255.86:8080/statisticsapi/api/teacharStatistics/queryGradeDistribution/?access_token=3&courseId=427213
+
+入参：
+"access_token" :"用户Token"
+"courseId":"课程ID"
+
+返回json：
+
+{
+    "code":0,
+    "errcode":0,
+    "data":[
+        {
+            "rate":10,         占比
+            "personNum":5,      人数
+            "Scroe":1           分数段：1==0-59分;2==60-69分;3==70-79分;4==80-89分;5==90-100分;
+        },
+         {
+            "rate":20,         占比
+            "personNum":5,      人数
+            "Scroe":2           分数段：1==0-59分;2==60-69分;3==70-79分;4==80-89分;5==90-100分;
+        },
+         {
+            "rate":20,         占比
+            "personNum":5,      人数
+            "Scroe":3           分数段：1==0-59分;2==60-69分;3==70-79分;4==80-89分;5==90-100分;
+        },
+         {
+            "rate":20,         占比
+            "personNum":5,      人数
+            "Scroe":4           分数段：1==0-59分;2==60-69分;3==70-79分;4==80-89分;5==90-100分;
+        },
+         {
+            "rate":30,         占比
+            "personNum":5,      人数
+            "Scroe":5           分数段：1==0-59分;2==60-69分;3==70-79分;4==80-89分;5==90-100分;
+        }
+    ],
+    "suc":true
+}
+
+2、数据统计  - 成绩统计 - 查看详情 - 学生统计 
+123.56.255.86:8080/statisticsapi/api/teacharStatistics/queryStudentStatisticsList/?access_token=3&courseId=427213&endScore=100&page=1&max=2&vv=0
+
+入参：
+"access_token" :"用户Token"
+"courseId":"课程ID"
+"startScore":"起始分数"
+"endScore":"结束分数"
+"g":"当前页，默认1"
+"max": "显示条数，默认10"
+
+返回json：
+
+{
+    "code":0,
+    "errcode":0,
+    "data":{
+        "rows":[
+            {
+                "Scoe":30,       课程成绩        
+                "UserId":74028,  学生id
+                "UserName":小二, 学生名称
+                "ranking":1      排名
+            },
+            {
+                "Scoe":1.04,
+                "UserId":73955,
+                "UserName":小三,
+                "ranking":2
+            }
+        ],
+        "pageNo":1,
+        "pageSize":2,
+        "totalRecord":5,
+        "totalPage":3
+    },
+    "suc":true
+}

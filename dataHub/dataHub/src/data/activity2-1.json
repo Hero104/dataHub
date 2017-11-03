@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "course_id": null,
+      "activity_id": null,
+      "join_count": null,
+      "user_count": null,
+      "join_level_1": 20,
+      "join_level_2": 18,
+      "join_level_3": 10,
+      "join_level_4": 18,
+      "join_level_5": 9
+    }
+  ],
+  "suc": true
+}

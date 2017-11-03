@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="tab-mine">
+            <!--<button ui-sref="countHomework" class="btn btn-info back">返回</button>-->
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==1]" class="btn"
+                    ui-sref="countHomeworkInfo({courseId:courseId, homeworkId: homeworkId, resource:resource})">作业分析</button>
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==2]" class="btn ml15"
+                    ui-sref="compareInfo({courseId:courseId, homeworkId: homeworkId, resource:resource})">班级对比</button>
+            <!--<button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==3]" class="btn ml15"-->
+                    <!--ui-sref="answerInfo({courseId:courseId, homeworkId: homeworkId})">作答分析</button>-->
+        </div>
+    </div>
+</div>

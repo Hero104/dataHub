@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="auth">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>教学监控管理系统</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic'
+          rel='stylesheet' type='text/css'>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/auth.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body>
+<main class="auth-main" ng-controller="authCtrl">
+    <div class="auth-block">
+        <h1>教学监控管理系统</h1>
+        <!--<a href="reg.html" class="auth-link">新用户？请注册</a>-->
+        <div class="form-horizontal" id="inputAuth" style="margin-top: 60px;">
+            <div class="form-group">
+                <label for="accout" class="col-sm-2 control-label">账号</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" ng-model="accout" id="accout" placeholder="请输入账号">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-2 control-label">密码</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" ng-model="password" id="password" placeholder="请输入密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="verifyCode3" class="col-sm-2 control-label">验证码</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" ng-model="verifyCode3" id="verifyCode3" placeholder="验证码">
+                </div>
+                <div class="col-xs-3">
+                    <div id="v_container" style="width: 120px;height:35px;"></div>
+                </div>
+                <div class="col-xs-2" style="margin-top:18px;">
+                    <a ng-click="changeImageCode()" class="pointer chang-text">换一张</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default btn-auth" data-loading-text="登录中...">登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="lib/js/jquery.min.js"></script>
+<script src="lib/js/angular.min.js"></script>
+<script src="lib/js/angular-cookie.min.js"></script>
+<script src="lib/js/gVerify.js"></script>
+<script src="lib/js/jQuery.md5.js"></script>
+<script src="lib/js/layer/layer.js"></script>
+<script src="lib/js/Particleground.js"></script>
+
+<script type="text/javascript">
+    'use strict';
+
+    // 背景
+    $('body').particleground({
+        dotColor: '#ffffa4',
+        lineColor: '#5cbdaa'
+    });
+
+    // 矢量
+    $.extend({
+        url: {
+            // 本地
+            login: 'data/token.json',
+            loginType: 'GET',
+            userInfo: 'data/teacherInfo.json',
+            courseInfo: 'data/teacherCourse.json',
+            mainUrl: 'main.html'
+//            // 测试
+//            login: '/userTest/sc/mvc/oauth/accessToken2',
+//            loginType: 'POST',
+//            userInfo: '/apisTest/zsapi/api/userinfo/getTeacherUser',
+//            courseInfo: '/apisTest/studyapi/api/batchCoursefxl/queryBatchCourseList',
+//            mainUrl: 'main.html'
+//            // 正式
+//            login: '/user/sc/mvc/oauth/accessToken2',
+//            loginType: 'POST',
+//            userInfo: '/apis/zsapi/api/userinfo/getTeacherUser',
+//            courseInfo: '/apis/studyapi/api/batchCoursefxl/queryBatchCourseList',
+//            mainUrl: 'main.html'
+        }
+    });
+
+    angular.module('auth', ['ipCookie']);
+
+    angular.module('auth').controller('authCtrl', ['$scope', 'ipCookie', function ($scope, ipCookie) {
+
+        var token,
+            userType,
+            index,
+            verifyCode = new GVerify("v_container");
+
+        // 账号密码登录
+        function login() {
+            if (!$scope.accout || !$scope.password) {
+                layer.alert('用户名或密码不能为空');
+                return;
+            }
+            if (!$scope.verifyCode3) {
+                layer.alert('请输入验证码');
+                return;
+            }
+            var res = verifyCode.validate($scope.verifyCode3);
+            if (res) {
+                index = layer.load();
+                load();
+            } else {
+                layer.close(index);
+                layer.alert("验证码错误");
+            }
+        }
+
+        // 获取token 和用户信息
+        function load() {
+            $.ajax({
+                method: $.url.loginType,
+                url: $.url.login,
+                data: {
+                    client_id: '1e0115b8-beb9-411e-8509-e5c19a8a56c0',
+                    client_secret: '4b00013e-9a76-48be-918b-7e9620568943',
+                    username: $scope.accout,
+                    password: $.md5($scope.password),
+                    grant_type: 'password',
+                    latitude: '',
+                    longitude: '',
+                    loginIp: ''
+                },
+                dataType: 'json',
+                contentType: 'application/x-www-form-urlencoded;charset=utf-8',
+                success: function (data) {
+                    if (data.access_token && data.authtoken) {
+                        var tokenInfo = JSON.parse(data.authtoken);
+                        console.log(tokenInfo);
+                        token = data.access_token;
+                        userType = tokenInfo.account.userType;
+                        if (userType != 3 && userType != 4 && token) {
+                            $.ajax({
+                                type: 'GET',
+                                url: $.url.userInfo,
+                                data: { access_token: token },
+                                dataType: 'json',
+                                success: function (data) {
+                                    console.log('success');
+                                    var userInfo = data.data;
+                                    ipCookie('accessToken', token, 1000);
+                                    ipCookie('teacherInfo', userInfo, 1000);
+                                    ipCookie('nav', 0, 1000);
+                                    ipCookie('userType', userType);
+                                    if (data.code == 0) {
+                                        switch(userType + '') {
+                                            case '1':
+                                                location.href = $.url.mainUrl;
+                                                break;
+                                            case '2':
+                                                getCourse(token, userInfo);
+                                                break;
+                                            default:
+                                                break;
+                                        }
+                                    }
+                                },
+                                error: function (data) {
+                                    console.log('error');
+                                    layer.close(index);
+                                    layer.alert('登录失败，用户信息获取错误！');
+                                    verifyCode.refresh();
+                                }
+                            });
+                        } else {
+                            layer.close(index);
+                            layer.alert('登录失败，请检验您的用户名和密码！');
+                            verifyCode.refresh();
+                        }
+                    } else {
+                        layer.close(index);
+                        layer.alert('获取token失败！');
+                        verifyCode.refresh();
+                    }
+                },
+                error: function (data) {
+                    layer.close(index);
+                    layer.alert('用户名或密码不正确！');
+                    verifyCode.refresh();
+                }
+            });
+        }
+
+        // 获取老师自带课程（teacher）
+        function getCourse(token, teacherInfo) {
+            $.ajax({
+                type: 'GET',
+                url: $.url.courseInfo,
+                data: {
+                    access_token: token,
+                    status: 1,
+                    teacherId: teacherInfo.userId,
+                    start: 1,
+                    rows: 999
+                },
+                dataType: 'json',
+                success: function (data) {
+                    if (data.code == 0) {
+                        var courseList = data.data,
+                            courseArr = [];
+                        if (courseList.length !== 0) {
+                            for (var i = 0; i < courseList.length; i++) {
+                                courseArr.push(courseList[i].id);
+                            }
+                            var courseStr = courseArr.join(',');
+                            ipCookie('courseStr', courseStr, 1000);
+                        } else {
+                            ipCookie('courseStr', 0, 1000);
+                        }
+                        layer.close(index);
+                        location.href = $.url.mainUrl;
+                    } else {
+                        layer.close(index);
+                        layer.alert('登录失败，获取老师课程错误！');
+                        verifyCode.refresh();
+                    }
+                },
+                error: function (data) {
+                    layer.close(index);
+                    layer.alert('登录失败，获取老师课程错误！');
+                    verifyCode.refresh();
+                }
+            });
+        }
+
+        // 登录触发事件
+        $('button[type=submit]').click(login);
+
+        // 键盘登录
+        $('#accout, #password, #verifyCode3').keypress(function (e) {
+            e = e || window.event;
+            if (e.keyCode == 13) {
+                login();
+                return;
+            }
+        });
+
+        // 换一张
+        $scope.changeImageCode = function () {
+            verifyCode.refresh();
+        };
+    }]);
+
+</script>
+
+</body>
+</html>

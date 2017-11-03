@@ -1,0 +1,28 @@
+[
+  {
+    "ask_count": 0,
+    "course_id": 1735403,
+    "note_count": 0,
+    "progress": 1,
+    "resource_id": 5652,
+    "resource_name": "第十五讲",
+    "resource_type": 1,
+    "sequence_id": 2781,
+    "study_count": 1,
+    "study_time": 0,
+    "user_id": 2087
+  },
+  {
+    "ask_count": 0,
+    "course_id": 1735403,
+    "note_count": 0,
+    "progress": 10,
+    "resource_id": 6121,
+    "resource_name": "导学",
+    "resource_type": 1,
+    "sequence_id": 1,
+    "study_count": 1,
+    "study_time": 81,
+    "user_id": 2087
+  }
+]

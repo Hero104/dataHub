@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "maxTotalStudyCount": 123,
+    "minTotalStudyCount": 123,
+    "avgTotalStudyCount": 123
+  },
+  "suc": true
+}

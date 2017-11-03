@@ -1,0 +1,141 @@
+接口说明:获取提问按课程统计列表 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/teacharStatistics/listAskbyCourse
+参数:
+access_token:用户Token [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true]
+status:课程状态(0:全部 1:未过期 2:已过期) 数据类型:Integer [是否必要:true]
+
+
+date 
+
+{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": [
+	        {
+	            "course_id": 12359,                     //课程id     
+	            "course_name": "经济学基础",              //课程名称   
+	            "user_count": 509,                      //总人数      
+	            "ask_user_count": null,                 //提问人数     
+	            "ask_count": 46,                        //提问数      
+	            "answer_count": 180,                    //回复总数     
+	            "distinct_answer_count": 259,           //被回复问题数   
+	            "answer_rate": 233                      //回复率      
+	        }
+	    ],
+	    "suc": true
+	}
+
+
+
+
+接口说明:获取资源类型统计列表 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/teacharStatistics/listAskbyResourceType
+参数:
+access_token:用户Token [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true]
+
+date
+
+{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": [
+	        {
+	            "resource_type": 1,          //资源类型  
+	            "ask_count": 80              //提问数   
+	        },
+	        {
+	            "resource_type": 2,          //资源类型  
+	            "ask_count": 77              //提问数   
+	        },
+	        {
+	            "resource_type": 3,        //资源类型  
+	            "ask_count": 16            //提问数   
+	        },
+	        {
+	            "resource_type": 4,       //资源类型  
+	            "ask_count": 7            //提问数   
+	        }
+	    ],
+	    "suc": true
+	}
+
+
+
+
+接口说明:获取答疑学生统计列表 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/teacharStatistics/listAskbyStudent
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+askStatus:学生答疑状态(0:全部 1:未提问 2:已提问) 数据类型:Integer [是否必要:true]
+
+
+date
+
+
+{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": [
+	        {
+	            "course_id": 1735271,                   //课程id     
+	            "user_id": 74239,                       //学生id     
+	            "user_name": "王妮韵",                  //学生姓名     
+	            "course_name": null,                    //课程名称     
+	            "ask_count": 0,                         //提问数      
+	            "answer_count": 0,                      //回复总数     
+	            "distinct_answer_count": 0,             //被回复问题数   
+	            "ask_status": null                      //提问状态     
+	        },
+	        {
+	            "course_id": 1735271,                      //课程id     
+	            "user_id": 74290,                          //学生id     
+	            "user_name": "王静洁",                     //学生姓名     
+	            "course_name": null,                       //课程名称     
+	            "ask_count": 0,                            //提问数      
+	            "answer_count": 1,                         //回复总数     
+	            "distinct_answer_count": 0,                //被回复问题数   
+	            "ask_status": null                         //提问状态     
+	        },
+	        {
+	            "course_id": 1735271,                         //课程id     
+	            "user_id": 74400,                             //学生id     
+	            "user_name": "王俊桂",                        //学生姓名     
+	            "course_name": null,                          //课程名称     
+	            "ask_count": 0,                               //提问数      
+	            "answer_count": 0,                            //回复总数     
+	            "distinct_answer_count": 0,                   //被回复问题数   
+	            "ask_status": null                            //提问状态     
+	        }
+	    ],
+	    "suc": true
+	}
+
+
+
+
+接口说明:获取答疑总合 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/teacharStatistics/getAskAnswerSum
+参数:
+access_token:用户Token [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true] 
+
+
+date
+
+
+
+{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": {
+	        "ask_user_count": 46,                //提问人数  
+	        "ask_count": 180,                    //提问数   
+	        "answer_count": 259,                 //回复数   
+	        "distinct_answer_count": null,       //被回复问题数
+	        "answer_rate": 233                   //回复率   
+	    },
+	    "suc": true
+	}

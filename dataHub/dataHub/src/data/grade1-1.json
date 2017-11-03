@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "score60D": 15,
+    "score60_80": 0,
+    "score80U": 0
+  },
+  "suc": true
+}

@@ -1,0 +1,43 @@
+###活动统计接口
+
+##### 班级对比（一个接口对应三个功能）
+请求协议：http://123.56.255.86:8080/statisticsapi/api/activity/listActivityClassStatistics?access_token=111&course_id=1735364&activity_id=2268962
+
+
+** GET api/activity/listActivityClassStatistics
+
+
+
+参数：
+*access_token:用户Token [是否必要:true]
+
+*course_id:课程Id 数据类型:String [是否必要:true]
+
+*activity_id:活动id 数据类型:String [是否必要:true] 
+
+*请求体*
+
+	{
+		access_token=111  //token
+		course_id=1735364  //课程id
+		activity_id=2268962 //活动id
+	}
+
+*回应体*
+                                                      成绩对比       发帖统计        班级统计   
+	{
+	total_user_count: 57,                                           //总发帖数     //总发帖数          //总发帖数
+	class_id: 2042718,                                //课程id      //课程id       //课程id            //课程id
+	join_user_count: 57,                                                           //活动发帖人数      //活动发帖人数
+	activity_id: 13035,                               //活动id      //活动id       //活动id            //活动id
+	avg_join_count: 1,                                              //平均发帖数   //平均发帖数        //平均发帖数
+	course_name: "经济学基础",                        //课程名称    //课程名称     //课程名称          //课程名称
+	min_max_score: 100,                               //最低分                                         //最低分
+	max_score: 100,                                   //最高分                                         //最高分
+	sum_join_count: 79,                                                            //活动总发帖数      //活动总发帖数
+	activity_name: "课程导学及第一章导言 阶段性讨论", //活动名称    //活动名称     //活动名称          //活动名称
+	course_id: 12359,                                 //课程id      //课程id       //课程id            //课程id
+	class_name: "16会计1班",                          //班级名称    //班级名称     //班级名称          //班级名称
+	avg_max_score: 100                                //平均分                                         //平均分    
+	}
+	

@@ -1,0 +1,12 @@
+#datePicker {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  z-index: 999;
+  .input-title {
+    line-height: 40px;
+  }
+  .input-group {
+    width: 60%;
+  }
+}

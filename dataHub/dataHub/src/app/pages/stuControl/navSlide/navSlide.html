@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="tab-mine">
+            <button ui-sref="studentInfo({courseId: courseId})" class="btn btn-info back">返回</button>
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==1]" class="btn"
+                    ui-sref="stuReport({courseId:courseId, userId:userId})">学习报告</button>
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==2]" class="btn ml15"
+                    ui-sref="loginBehavior({courseId:courseId, userId:userId})">登录行为</button>
+            <button ng-class="{true: 'btn-success', false: 'btn-default'}[nav==3]" class="btn ml15"
+                    ui-sref="studyBehavior({courseId:courseId, userId:userId})">学习分析</button>
+        </div>
+    </div>
+</div>

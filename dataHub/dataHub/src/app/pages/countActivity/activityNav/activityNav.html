@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="tab-mine">
+            <!--<button ui-sref="countActivity" class="btn btn-info back">返回</button>-->
+            <button class="btn" ng-class="{true: 'btn-success', false: 'btn-default'}[nav==1]"
+                    ui-sref="countActivityInfo({activityId:activityId, courseId:courseId})">活动分析</button>
+            <button class="btn ml30" ng-class="{true: 'btn-success', false: 'btn-default'}[nav==2]"
+                    ui-sref="ActivityCompareInfo({activityId:activityId, courseId:courseId})">活动对比</button>
+        </div>
+    </div>
+
+</div>

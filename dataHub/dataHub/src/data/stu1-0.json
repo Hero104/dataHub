@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "personNum": 147,
+      "LearnerGender": 0
+    },
+    {
+      "personNum": 598,
+      "LearnerGender": 1
+    }
+  ],
+  "suc": true
+}

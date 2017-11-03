@@ -1,0 +1,62 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "msg": "success",
+  "data": [
+    {
+      "statis_date": "2017-03-23",
+      "note_count": 2,
+      "user_id": 73955,
+      "ask_count": 4
+    },
+    {
+      "statis_date": "2017-03-24",
+      "note_count": 1,
+      "user_id": 73955,
+      "ask_count": 0
+    },
+    {
+      "statis_date": "2017-03-29",
+      "note_count": 4,
+      "user_id": 73955,
+      "ask_count": 3
+    },
+    {
+      "statis_date": "2017-04-18",
+      "note_count": 2,
+      "user_id": 73955,
+      "ask_count": 3
+    },
+    {
+      "statis_date": "2017-04-24",
+      "note_count": 1,
+      "user_id": 73955,
+      "ask_count": 1
+    },
+    {
+      "statis_date": "2017-05-16",
+      "note_count": 2,
+      "user_id": 73955,
+      "ask_count": 2
+    },
+    {
+      "statis_date": "2017-07-25",
+      "note_count": 2,
+      "user_id": 73955,
+      "ask_count": 1
+    },
+    {
+      "statis_date": "2017-08-29",
+      "note_count": 5,
+      "user_id": 73955,
+      "ask_count": 0
+    },
+    {
+      "statis_date": "2017-09-09",
+      "note_count": 2,
+      "user_id": 73955,
+      "ask_count": 2
+    }
+  ],
+  "suc": true
+}

@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "rows": [
+      {
+        "Scoe": 30,
+        "UserId": 74028,
+        "UserName": "小二",
+        "ranking": 1
+      },
+      {
+        "Scoe": 1.04,
+        "UserId": 73955,
+        "UserName": "小三",
+        "ranking": 2
+      }
+    ],
+    "pageNo": 1,
+    "pageSize": 2,
+    "totalRecord": 5,
+    "totalPage": 3
+  },
+  "suc": true
+}

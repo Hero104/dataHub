@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "resourceTypeOne": 244,
+    "resourceTypeTwo": 244,
+    "resourceTypeThree": 269,
+    "resourceTypeFour": 68,
+    "resourceTypeFive": 63,
+    "resourceTypeSix": 26
+  },
+  "suc": true
+}

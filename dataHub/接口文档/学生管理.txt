@@ -1,0 +1,176 @@
+接口说明:获取课程学习趋势 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/course/listCourseStudyTrend
+
+{
+"access_token":"66b43e176a64655c51c26b7075920bdf",
+"courseId":1735594,
+"startDate":"2010-01-01",
+"endDate":"2017-06-20"
+}
+
+
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true]
+startDate:开始日期 数据格式:yyyy-MM-dd 数据类型:String [是否必要:true]
+endDate:结束日期 数据格式:yyyy-MM-dd 数据类型:String [是否必要:true] 
+
+
+	{
+	    "code": 0,
+	    "errcode": 0,
+	    "data": [
+	        {
+	            "courseId": 1735594,            // 课程Id     
+	            "statisDate": "2017-05-31",     // 统计日期 
+	            "studyTime": "1828"             // 学习时间  
+	        },
+	        {
+	            "courseId": 1735594,             // 课程Id     
+	            "statisDate": "2017-06-02",     // 统计日期 
+	            "studyTime": "1146"              // 学习时间  
+	        }
+	    ],
+	    "suc": true
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+接口说明:获取课程学生统计 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/course/listCourseStudent
+
+{
+"access_token":"66b43e176a64655c51c26b7075920bdf",
+"courseIds":"1,1735637",
+"status":0
+}
+
+参数:
+access_token:用户Token [是否必要:true]
+courseIds:课程Id(1,2,3,4,5) 数据类型:String [是否必要:true]
+status:课程状态(0:全部 1:未过期 2:已过期) 数据类型:Long [是否必要:true] 
+ 
+
+
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "courseId": 1,                         // 课程id                        
+            "courseName": "大学英语（A）",         // 课程名称                    
+            "courseResourceCount": 3,             // 课程资源总数           
+            "avgProgress": 0,                     // 平均进度                     
+            "maxProgress": 0,                     // 最大进度                     
+            "minProgress": 0,                     // 最小进度                     
+            "askCount": 0,                         // 提问数                         
+            "noteCount": 0,                        // 笔记数                        
+            "homeworkStudyTime": 0,                // 作业学习时长             
+            "videoStudyTime": 0,                   // 视频学习时长                
+            "documentStudyTime": 0,                // 文档学习时长             
+            "totalStudyTime": 0,                   // 总学习时长                 
+            "sumStudyCount": 0,                    // 总浏览次数                  
+            "avgStudyCount": 0,                    // 平均浏览次数                 
+            "userCount": 11                        // 课程学生总数                     
+        },
+        {
+            "courseId": 1735637,                     // 课程id                        
+            "courseName": "微商城给如何选择",        // 课程名称                    
+            "courseResourceCount": 0,                // 课程资源总数           
+            "avgProgress": 0,                        // 平均进度                     
+            "maxProgress": 0,                        // 最大进度                     
+            "minProgress": 0,                        // 最小进度                     
+            "askCount": 0,                           // 提问数                         
+            "noteCount": 0,                          // 笔记数                        
+            "homeworkStudyTime": 0,                  // 作业学习时长             
+            "videoStudyTime": 0,                     // 视频学习时长                
+            "documentStudyTime": 0,                  // 文档学习时长             
+            "totalStudyTime": 0,                     // 总学习时长                 
+            "sumStudyCount": 1,                      // 总学习次数                  
+            "avgStudyCount": 1,                      // 平均学习次数                 
+            "userCount": 0                          // 课程学生总数                     
+        }
+    ],
+    "suc": true
+}
+
+
+
+
+
+接口说明:获取课程学生详情 请求方式: GET,(安全协议:true)
+地址:http://123.56.255.86:8080/statisticsapi/api/course/listCourseStudentDetail
+
+{
+"access_token":"66b43e176a64655c51c26b7075920bdf",
+"courseId":1735594
+}
+
+
+参数:
+access_token:用户Token [是否必要:true]
+courseId:课程Id 数据类型:Long [是否必要:true] 
+
+返回date
+
+{
+    "code": 0,
+    "errcode": 0,
+    "data": [
+        {
+            "userId": 3339,                        // 用户Id                     
+            "nickName": "陈璐",                   // 用户名称                 
+            "courseId": 1735594,                   // 课程Id                   
+            "progress": 0,                         // 进度                     
+            "courseName": "中国近现代史纲要",      // 课程名称               
+            "courseResourceCount": 17,             // 课程资源总数      
+            "askCount": 0,                         // 提问数                    
+            "noteCount": 0,                        // 笔记数                   
+            "homeworkStudyTime": 0,                // 作业学习时长        
+            "videoStudyTime": 0,                   // 视频学习时长           
+            "documentStudyTime": 2974,             // 文档学习时长        
+            "totalStudyTime": 2974,                // 总学习时长            
+            "homeworkPercent": 0,                  // 作业进度            
+            "videoPercent": 0,                     // 视频进度               
+            "documentPercent": 100,                // 文档进度            
+            "studyCount": 1,                       // 学习总数                 
+            "finishedHomeworkCount": 0,            // 完成作业总数    
+            "finishedActivityCount": 0,            // 完成活动总数    
+            "homeworkCount": 0,                    // 作业总数              
+            "activityCount": 13                    // 活动总数              
+        },
+        {
+            "userId": 306309,                       // 用户Id               
+            "nickName": "王一凡",                // 用户名称                  
+            "courseId": 1735594,                    // 课程Id               
+            "progress": 100,                        // 进度                 
+            "courseName": "中国近现代史纲要"        //名称                       
+            "courseResourceCount": 40,              // 课程资源总数             
+            "askCount": 0,                          // 提问数                
+            "noteCount": 0,                         // 笔记数                
+            "homeworkStudyTime": 0,                 // 作业学习时长             
+            "videoStudyTime": 0,                    // 视频学习时长             
+            "documentStudyTime": 969,               // 文档学习时长             
+            "totalStudyTime": 969,                  // 总学习时长              
+            "homeworkPercent": 0,                   // 作业进度               
+            "videoPercent": 0,                      // 视频进度               
+            "documentPercent": 100,                 // 文档进度               
+            "studyCount": 6,                        // 学习总数               
+            "finishedHomeworkCount": 0,             // 完成作业总数             
+            "finishedActivityCount": 13,            // 完成活动总数             
+            "homeworkCount": 0,                     // 作业总数               
+            "activityCount": 13                     // 活动总数               
+        }
+    ],
+    "suc": true
+}

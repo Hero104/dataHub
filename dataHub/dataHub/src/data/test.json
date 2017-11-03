@@ -1,0 +1,21 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "msg": "success",
+  "data": {
+    "courseName": "大学英语",
+    "chapter": [{
+      "chapterName": "第一章",
+      "section": [{
+        "sectionName": "第一节",
+        "chapterName": "第一章",
+        "knobble": [{
+          "knobbleName": "第一小节",
+          "sectionName": "第一节",
+          "chapterName": "第一章"
+        }]
+      }]
+    }]
+  },
+  "suc": true
+}

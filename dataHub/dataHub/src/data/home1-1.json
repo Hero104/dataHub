@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": [
+    {
+      "homeWrokTimes": 137,
+      "personNum": 994,
+      "visitCount": 12048,
+      "errorCount": 203053,
+      "studyTime": 2420600
+    }
+  ],
+  "suc": true
+}

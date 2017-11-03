@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "errcode": 0,
+  "data": {
+    "maxTotalStudyTime": 19240,
+    "minTotalStudyTime": 0,
+    "avgTotalStudyTime": 320
+  },
+  "suc": true
+}
